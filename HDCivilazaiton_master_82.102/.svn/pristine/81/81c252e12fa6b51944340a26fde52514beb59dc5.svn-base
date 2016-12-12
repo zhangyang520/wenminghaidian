@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/login_"
+    android:background="#EBF8FF"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@color/title_backround_color">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="@dimen/back_height"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/btn_back"
+                style="@style/TitleLeftBtn"
+                android:background="@null"
+                android:contentDescription="@string/empty_space"
+                android:src="@drawable/btn_back_selector" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/title_login"
+            android:textColor="@color/title_text_color"
+            android:textSize="@dimen/title_text_size" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/login_edit_long">
+
+        <EditText
+            android:id="@+id/edit_iphone_number"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:background="@null"
+            android:numeric="integer"
+            android:singleLine="true"
+            android:hint="请输入手机号"
+            android:maxLength="11"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textColor="@color/black"
+            android:textColorHint="@color/login_edit" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="1.5"
+            android:background="@drawable/login_edit">
+
+            <EditText
+                android:id="@+id/edit_iphone_code"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:background="@null"
+                android:numeric="integer"
+                android:singleLine="true"
+                android:hint="请输入验证码"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:maxLength="6"
+                android:textColor="@color/black"
+                android:textColorHint="@color/login_edit" />
+
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/send_iphone_code"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_send_iphone_code_selector" />
+
+        <LinearLayout
+            android:id="@+id/agin_iphone_code"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_shape_get_code_bg"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="2dp"
+                android:text="重发("
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/time_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="2dp"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="2dp"
+                android:text="S)"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_shape_login_selector"
+        android:text="登录"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+
+</LinearLayout>

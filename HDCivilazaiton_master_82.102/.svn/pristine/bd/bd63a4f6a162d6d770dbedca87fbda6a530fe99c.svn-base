@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/supervise_mine_list_selector"
+    android:paddingTop="20.5dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:id="@+id/rl_problem"
+    tools:context="com.zhjy.hdcivilization.fragment.SuperviseProblemFragment">
+
+    <TextView
+        android:id="@+id/supervise_tv_des"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:text="当日上报问题数15个,获得文明贡献值45分"
+        android:textSize="16sp"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:textColor="@color/supervise_mysub_left_txt"
+        android:layout_alignParentLeft="true"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/supervise_tv_time"
+        android:layout_width="57dp"
+        android:layout_height="wrap_content"
+        android:text="07-23"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textSize="15sp"
+        android:textColor="#797979"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/supervise_tv_des"
+        android:id="@+id/supervise_tv_total"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="总文明贡献值:245分"
+        android:textSize="13sp"
+        android:textColor="#797979"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:layout_alignParentLeft="true"
+        />
+
+    <TextView
+        android:id="@+id/supervise_v_line"
+        android:layout_below="@id/supervise_tv_total"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/supervise_mysubmit_line_color"
+        android:layout_marginTop="20.5dp"
+        android:layout_centerHorizontal="true"
+        ></TextView>
+
+</RelativeLayout>

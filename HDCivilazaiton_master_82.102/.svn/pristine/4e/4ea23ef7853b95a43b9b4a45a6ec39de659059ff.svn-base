@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@color/title_backround_color">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="@dimen/back_height"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/btn_back"
+                style="@style/TitleLeftBtn"
+                android:background="@null"
+                android:contentDescription="@string/empty_space"
+                android:src="@drawable/btn_back_selector" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/use_guide"
+            android:textColor="@color/title_text_color"
+            android:textSize="@dimen/title_text_size" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_marginTop="18dp"
+            android:orientation="vertical"
+            android:paddingBottom="16dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_title1"
+                    style="@style/use_guide_title"
+                    android:text="文明海淀APP是谁设计开发的？" />
+
+                <ImageView
+                    android:id="@+id/imageview1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:src="@drawable/icon_use_guide" />
+
+                <TextView
+                    style="@style/use_guide_content"
+                    android:layout_below="@id/imageview1"
+                    android:text="@string/use_duide" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/use_guide_title"
+                    android:text="什么是志愿者？" />
+
+                <ImageView
+                    android:id="@+id/imageview_volunteer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:src="@drawable/icon_use_guide" />
+
+                <TextView
+                    style="@style/use_guide_content"
+                    android:layout_below="@id/imageview_volunteer"
+                    android:text="@string/use_guide_what_volunteer" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/use_guide_title"
+                    android:text="志愿者与普通网友的区别？" />
+
+                <ImageView
+                    android:id="@+id/imageview_volunteer_"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:src="@drawable/icon_use_guide" />
+
+                <TextView
+                    style="@style/use_guide_content"
+                    android:layout_below="@id/imageview_volunteer_"
+                    android:text="@string/use_guide_volunteer_user" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/use_guide_title"
+                    android:text="什么是文明监督？" />
+
+                <ImageView
+                    android:id="@+id/imageview_civi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:src="@drawable/icon_use_guide" />
+
+                <TextView
+                    style="@style/use_guide_content"
+                    android:layout_below="@id/imageview_civi"
+                    android:text="@string/use_guide_civi" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_title2"
+                    style="@style/use_guide_title"
+                    android:text="不文明现象有哪些？" />
+
+                <ImageView
+                    android:id="@+id/imageview2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:src="@drawable/icon_use_guide" />
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imageview2"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <include layout="@layout/use_guide_textview"></include>
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/use_guide_title"
+                    android:text="如何提报不文明现象？" />
+
+                <ImageView
+                    android:id="@+id/imageview_sub_no_civi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:src="@drawable/icon_use_guide" />
+
+                <TextView
+                    style="@style/use_guide_content"
+                    android:layout_below="@id/imageview_sub_no_civi"
+                    android:text="@string/use_guide_no_civi" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/use_guide_title"
+                    android:text="什么是文明贡献值？" />
+
+                <ImageView
+                    android:id="@+id/imageview_civi_golde"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:src="@drawable/icon_use_guide" />
+
+                <TextView
+                    style="@style/use_guide_content"
+                    android:layout_below="@id/imageview_civi_golde"
+                    android:text="@string/use_guide_civi_golde" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/use_guide_title"
+                    android:text="文明贡献值如何兑换现金奖励？" />
+
+                <ImageView
+                    android:id="@+id/imageview_civi_apply"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:src="@drawable/icon_use_guide" />
+
+                <TextView
+                    style="@style/use_guide_content"
+                    android:layout_below="@id/imageview_civi_apply"
+                    android:text="@string/use_guide_civi_golde_apply" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="18dp"
+                android:layout_marginTop="18dp">
+
+                <TextView
+                    android:id="@+id/text_title3"
+                    style="@style/use_guide_title"
+                    android:text="使用过程中出现问题怎么办?" />
+
+                <ImageView
+                    android:id="@+id/imageview3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:src="@drawable/icon_use_guide" />
+
+                <!--内容1-->
+                <TextView
+                    android:id="@+id/tv_use_duide0"
+                    style="@style/use_guide_content"
+                    android:layout_below="@id/imageview3"
+                    android:text="@string/use_duide0" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_use_duide0">
+
+                    <TextView
+                        android:id="@+id/tv_use_duide1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="10dp"
+                        android:lineSpacingMultiplier="1.2"
+                        android:text="@string/use_duide1"
+                        android:textColor="#515151"
+                        android:textSize="13sp" />
+                    <!--业务咨询电话-->
+                    <RelativeLayout
+                        android:id="@+id/ll_use_duide1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@id/tv_use_duide1">
+                        <!--业务咨询电话-->
+                        <TextView
+                            android:id="@+id/yewu_dail1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:clickable="true"
+                            android:lineSpacingMultiplier="1.2"
+                            android:text="82468131"
+                            android:textColor="#58bcf5"
+                            android:textSize="13sp" />
+                        <!--  <View
+                              android:layout_below="@+id/yewu_dail1"
+                              android:id="@+id/line_1"
+                              android:layout_width="wrap_content"
+                              android:layout_height="1dp"
+                              android:background="#58bcf5"></View>-->
+
+                        <TextView
+                            android:id="@+id/yewu_dail2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/yewu_dail1"
+                            android:layout_marginTop="5dp"
+                            android:clickable="true"
+                            android:lineSpacingMultiplier="1.2"
+                            android:text="82468133"
+                            android:textColor="#58bcf5"
+                            android:textSize="13sp" />
+                        <!-- <View
+                             android:layout_below="@+id/yewu_dail2"
+                             android:id="@+id/line_2"
+                             android:layout_width="wrap_content"
+                             android:layout_height="1dp"
+                             android:background="#58bcf5"></View>-->
+                        <TextView
+                            android:id="@+id/yewu_dail3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/yewu_dail2"
+                            android:layout_marginTop="5dp"
+                            android:clickable="true"
+                            android:lineSpacingMultiplier="1.2"
+                            android:text="82468134"
+                            android:textColor="#58bcf5"
+                            android:textSize="13sp" />
+                        <!--   <View
+                               android:layout_below="@+id/yewu_dail3"
+                               android:id="@+id/line_3"
+                               android:layout_width="wrap_content"
+                               android:layout_height="1dp"
+                               android:background="#58bcf5"></View>-->
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_use_duide2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rl_1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:lineSpacingMultiplier="1.2"
+                    android:text="@string/use_duide2"
+                    android:textColor="#515151"
+                    android:textSize="13sp" />
+                <!--技术咨询电话-->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/tv_use_duide2"
+                    android:layout_toRightOf="@+id/tv_use_duide2">
+                    <!--技术咨询电话-->
+                    <TextView
+                        android:id="@+id/jishu_dail1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:lineSpacingMultiplier="1.2"
+                        android:text="68944225"
+                        android:textColor="#58bcf5"
+                        android:textSize="13sp" />
+                    <!-- <View
+                         android:layout_below="@+id/jishu_dail1"
+                         android:id="@+id/line_4"
+                         android:layout_width="wrap_content"
+                         android:layout_height="1dp"
+                         android:background="#58bcf5"></View>-->
+                </RelativeLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

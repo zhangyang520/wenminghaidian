@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?><!--第一个提问-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/margin_left_"
+    android:layout_marginRight="@dimen/margin_left_"
+    android:layout_marginTop="@dimen/margin_top_txt_supervise"
+    android:orientation="vertical"
+    android:id="@+id/ll_one"
+    >
+
+    <!--内容的标题-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/civiSuperviseTitle_one"
+        android:textColor="@color/txt_title_supervise_color"
+        android:textSize="@dimen/txt_title_supervise"
+        android:textStyle="bold"
+        />
+
+    <!--文字内容  android:lineSpacingExtra="@dimen/text_line_space"-->
+    <TextView
+        android:id="@+id/supervise_content_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_title_supervise"
+        android:text="@string/test_text"
+        android:textColor="@color/txt_content_supervise_color"
+        android:textSize="@dimen/txt_content_supervise"
+        android:lineSpacingMultiplier="1.25"
+        />
+
+    <!--文字下划线 查看全部-->
+    <LinearLayout
+        android:id="@+id/ll_line_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
+
+        <!--左边线-->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:background="@color/supervise_line_color" />
+
+        <!--中间部分 查看全部 箭头-->
+        <LinearLayout
+            android:id="@+id/supervise_content_one_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <!--箭头图片-->
+            <ImageView
+                android:id="@+id/iv_supervise_arrow_one"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="7dp"
+                android:clickable="true"
+                android:src="@drawable/downarrow_selector" />
+
+            <TextView
+                android:id="@+id/tv_arrow_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/civiSupervise_seeall"
+                android:textColor="@color/supervise_seeall_color"
+                android:textSize="@dimen/seeall_txtsize_supervise" />
+        </LinearLayout>
+
+        <!--右边线-->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:background="@color/supervise_line_color" />
+    </LinearLayout>
+</LinearLayout>

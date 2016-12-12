@@ -1,0 +1,198 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!--公共部分-->
+    <!--大标题的字体大小-->
+    <dimen name="title_text_size">18sp</dimen>
+    <!--大标题的右边的字体大小-->
+    <dimen name="title_right_size">13.5sp</dimen>
+    <dimen name="title_height">46dp</dimen>
+    <dimen name="back_height">60dp</dimen>
+    <dimen name="subtheme_width">60dp</dimen>
+    <dimen name="my_supervise_width">100dp</dimen>
+
+    <!--返回键大小-->
+    <dimen name="btn_back_height">25dp</dimen>
+    <dimen name="btn_back_width">15dp</dimen>
+
+    <!--中间主体部分距离边界的长度padding-->
+    <dimen name="edge_padding_left">13dp</dimen>
+    <dimen name="edge_padding_right">13dp</dimen>
+
+    <!--文明监督的模块-->
+    <!--文明监督模块问题的字体大小-->
+    <dimen name="txt_title_supervise">16sp</dimen>
+    <!--文明监督模块内容的字体大小-->
+    <dimen name="txt_content_supervise">15sp</dimen>
+    <!--文明监督中的与主题之间的marginTop-->
+    <dimen name="margin_top_txt_supervise">21dp</dimen>
+    <!--文明监督中的与左边界之间的marginLeft-->
+    <dimen name="margin_left_txt_supervise">10dp</dimen>
+    <!--文明监督中的与右边界之间的marginRight-->
+    <dimen name="margin_right_txt_supervise">10dp</dimen>
+    <!--文明监督中的与主题之间的marginTop-->
+    <dimen name="margin_top_title_supervise">8dp</dimen>
+    <!--文明监督中的字体内容的大小-->
+    <dimen name="seeall_txtsize_supervise">15sp</dimen>
+    <!--我的上报列表条目中的圆形的按钮的宽度-->
+    <dimen name="btn_round_width">15dp</dimen>
+    <!--进度条圆圈的margin值-->
+    <dimen name="btn_margin">4dp</dimen>
+    <dimen name="supervise_progress_line_height">2dp</dimen>
+    <dimen name="line_margintop">7.5dp</dimen>
+
+    <!--测试的高度-->
+    <dimen name="default_test_height">25dp</dimen>
+
+
+    <!--文明监督中我要提报相关长度-->
+    <dimen name="supervise_mysub_right_txt_size">17sp</dimen>
+    <dimen name="supervise_mysub_left_txt_size">18sp</dimen>
+    <dimen name="supervise_mysub_item_height">66dp</dimen>
+    <dimen name="upload_img_height">120dp</dimen>
+    <dimen name="grid_horizontal_space">15dp</dimen>
+    <dimen name="supervise_mysub_line_height">1dp</dimen>
+    <dimen name="supervise_img_capture_length">100dp</dimen>
+    <dimen name="supervise_img_must_height">6dp</dimen>
+    <dimen name="supervise_corner_radius">10dp</dimen>
+    <dimen name="supervise_popup_position_height">400dp</dimen>
+
+    <!--志愿者报名内容高度-->
+    <dimen name="volunteer_item_height">60dp</dimen>
+    <dimen name="volunteer_item_margin_top">20dp</dimen>
+    <dimen name="volunteer_txt_margin_top">20dp</dimen>
+    <dimen name="volunteer_arrow_height">8.823dp</dimen>
+    <dimen name="volunteer_arrow_width">17dp</dimen>
+
+    <!--我的模块-->
+    <dimen name="margin_left_title">10dp</dimen>
+    <dimen name="height_item">64dp</dimen>
+    <dimen name="mine_imglogo_height">18dp</dimen>
+    <dimen name="mine_imglogo_wight">18dp</dimen>
+    <dimen name="mine_arrow_height">20dp</dimen>
+    <dimen name="mine_arrow_wight">10dp</dimen>
+    <dimen name="mine_item_txt_size">17dp</dimen>
+    <dimen name="apply_check_sign_wight">22dp</dimen>
+    <dimen name="apply_check_sign_height">22dp</dimen>
+    <dimen name="share_wight">59dp</dimen>
+    <dimen name="share_height">59dp</dimen>
+    <dimen name="button_height">45dp</dimen>
+    <dimen name="margin_left_">13dp</dimen>
+    <dimen name="mine_img_marigin_">18dp</dimen>
+
+
+    <!--转圈的提示-->
+    <dimen name="width">50dp</dimen>
+
+    <!--照相模块-->
+    <!--底部的框的高度-->
+    <dimen name="bottom_height">200dp</dimen>
+    <!--照相矩形框的高度-->
+    <dimen name="camera_rect_height">250dp</dimen>
+    <dimen name="radius">50dp</dimen>
+    <dimen name="rect_radius">4dp</dimen>
+    <dimen name="send_comment_radius">6dp</dimen>
+    <dimen name="oval_line_width">2dp</dimen>
+    <dimen name="rect_line_width">1dp</dimen>
+
+    <dimen name="gridview_column_space">3dp</dimen>
+    <dimen name="gridViewMarginTop">20dp</dimen>
+    <dimen name="camera_bottom_height">40dp</dimen>
+    <dimen name="camera_bottom_width">75dp</dimen>
+    <dimen name="btn_camera_take">150dp</dimen>
+    <dimen name="img_volunteer_width">6dp</dimen>
+
+    <!--底部分享高度-->
+    <dimen name="share_rect_height">150dp</dimen>
+    <!--主界面MainActivity的字体大小-->
+    <dimen name="main_notice_item_size">17sp</dimen>
+    <dimen name="main_civilization_supervise_size">21sp</dimen>
+    <dimen name="main_other_mode_size">17sp</dimen>
+    <dimen name="main_viewpager_title_size">13.5sp</dimen>
+
+    <!--文明动态、通知公告、的字体大小-->
+    <dimen name="state_and_notice_title_size">15.5sp</dimen>
+    <dimen name="state_and_notice_content_size">13.5sp</dimen>
+    <dimen name="state_and_notice_zan_size">14.5sp</dimen>
+    <dimen name="state_and_notice_time_size">14sp</dimen>
+
+    <!--文明评论热门话题和我的话题界面的字体大小-->
+    <!--48px=18sp 41px=16sp 40px=15.5 -->
+    <dimen name="civi_comment_title_size">15.5sp</dimen>
+    <dimen name="civi_comment_content_size">13.5sp</dimen>
+    <dimen name="civi_comment_user_name_size">14.5sp</dimen>
+    <dimen name="civi_comment_zan_size">14sp</dimen>
+    <dimen name="civi_comment_time_size">14sp</dimen>
+
+    <!--文明评论热门话题和我的话题详情界面的字体大小-->
+    <dimen name="civi_comment_detail_title_size">17sp</dimen>
+    <dimen name="civi_comment_detail_content_size">15sp</dimen>
+    <dimen name="civi_comment_detail_user_name_size">14sp</dimen>
+    <dimen name="civi_comment_detail_zan_size">15sp</dimen>
+    <dimen name="civi_comment_detail_time_size">15sp</dimen>
+    <!--文明评论热门话题和我的话题 用户详情列表 界面的字体大小-->
+    <dimen name="civi_comment_user_name">18sp</dimen>
+    <dimen name="civi_comment_user_name_type">14sp</dimen>
+
+
+    <!--我的界面字体大小-->
+    <dimen name="mine_user_name_size">20sp</dimen>
+    <dimen name="mine_user_name_type_size">16sp</dimen>
+    <dimen name="mine_user_name_info_size">15sp</dimen>
+    <dimen name="mine_item_naem_size">18sp</dimen>
+
+
+    <!--志愿者报名界面字体大小-->
+    <dimen name="volunteer_item_title">18sp</dimen>
+    <dimen name="volunteer_item_content">15sp</dimen>
+
+    <!--志愿者报名表单界面字体大小-->
+    <dimen name="volunteer_item_title1">18sp</dimen>
+    <dimen name="volunteer_item_expersion">16sp</dimen>
+
+
+    <!--文明评论列表页-->
+    <dimen name="comment_item_title">16sp</dimen>
+    <dimen name="comment_item_content">14sp</dimen>
+
+    <!--个人信息模块-->
+    <dimen name="personal_title_size">18sp</dimen>
+    <dimen name="personal_save_size">18sp</dimen>
+
+    <!--发表内容按钮字体大小-->
+    <dimen name="btn_send_comment">16sp</dimen>
+    <dimen name="send_comment_content">16sp</dimen>
+
+    <!--提示框主题字体-->
+    <dimen name="popup_warning">19sp</dimen>
+    <dimen name="popup_width">300dp</dimen>
+
+    <!--下载框的设置-->
+    <dimen name="download_width">100dp</dimen>
+    <dimen name="download_height">70dp</dimen>
+
+    <dimen name="barwidth">150dp</dimen>
+    <dimen name="barheight">18dp</dimen>
+
+    <dimen name="popup_position_width">250dp</dimen>
+    <dimen name="popup_difference">25dp</dimen>
+    <dimen name="popup_position_margin">20dp</dimen>
+
+    <!--文本中文字的行间距-->
+    <dimen name="text_line_space">4dp</dimen>
+
+    <dimen name="must_star_margin_left">3dp</dimen>
+
+    <!--我的上报二级详情界面-->
+    <dimen name="supervise_detail_margin_top">19dp</dimen>
+    <dimen name="supervise_item_margin_left">10dp</dimen>
+    <dimen name="supervise_image_magin_left">12dp</dimen>
+    <dimen name="supervise_txt_size">16sp</dimen>
+
+    <!--首页中的红色按钮的宽度和高度-->
+    <dimen name="bth_red_number_height">22dp</dimen>
+    <dimen name="bth_red_number_width">22dp</dimen>
+</resources>

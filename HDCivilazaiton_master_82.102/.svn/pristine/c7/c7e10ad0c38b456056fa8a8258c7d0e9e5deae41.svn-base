@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/supervise_position_radio"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:src="@drawable/supervise_postion_radio_selector"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="15dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_supervise_position"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/supervise_mysub_left_txt"
+        android:text="中关村南大街3号"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textSize="@dimen/txt_title_supervise"
+        android:layout_toRightOf="@+id/supervise_position_radio"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        />
+</RelativeLayout>

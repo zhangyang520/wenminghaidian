@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_height"
+            android:background="@color/title_backround_color">
+
+            <RelativeLayout
+                android:id="@+id/rl_back"
+                android:layout_width="@dimen/back_height"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/btn_back"
+                    style="@style/TitleLeftBtn"
+                    android:background="@null"
+                    android:contentDescription="@string/empty_space"
+                    android:src="@drawable/btn_back_selector" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/sub_info"
+                android:textColor="@color/title_text_color"
+                android:textSize="@dimen/title_text_size" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="103dp"
+                android:layout_marginTop="75dp"
+                android:background="@drawable/logo" />
+
+            <ImageView
+                android:layout_width="243dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="4dp"
+                android:src="@drawable/sub_info_title" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="59dp"
+                android:layout_marginRight="59dp"
+                android:layout_marginTop="4dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/sub_info_"
+                android:textColor="#666666"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="243dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="14dp"
+                android:src="@drawable/sub_info_title_2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="59dp"
+                android:layout_marginRight="59dp"
+                android:layout_marginTop="5dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/sub_info_1"
+                android:textColor="#666666"
+                android:textSize="12sp"  />
+
+
+            <View
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="59dp"
+                android:layout_marginRight="59dp"
+                android:background="#e3e3e3" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="58dp"
+                    android:background="@drawable/sub_info_number" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="7dp"
+                    android:text="电话：010-82468131/3/4"
+                    android:textColor="#666666"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="58dp"
+                    android:background="@drawable/sub_info_address" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:text="海淀区长春桥路17号北310室"
+                    android:textColor="#666666"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="58dp"
+                    android:background="@drawable/sun_info_http_address" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="7dp"
+                    android:text="http://hdwmb.bjhd.gov.cn"
+                    android:textColor="#7d7d7d"
+                    android:textSize="12.5sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

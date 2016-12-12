@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#60000000"
+    android:gravity="center">
+
+
+    <RelativeLayout
+        android:id="@+id/login_rl_success"
+        android:layout_width="242dp"
+        android:layout_height="280dp"
+        android:background="@drawable/login_success_bg">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp">
+
+            <TextView
+                android:id="@+id/title_login_success"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="为了更好的交流沟通"
+                android:textColor="@color/comment_detail_content"
+                android:textSize="@dimen/civi_comment_content_size" />
+
+            <TextView
+                android:id="@+id/title_login_success1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title_login_success"
+                android:layout_marginTop="7dp"
+                android:text="请您"
+                android:textColor="@color/comment_detail_content"
+                android:textSize="@dimen/civi_comment_content_size" />
+
+            <TextView
+                android:id="@+id/perfect"
+                android:layout_width="wrap_content"
+                android:clickable="true"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title_login_success"
+                android:layout_marginTop="7dp"
+                android:layout_toRightOf="@id/title_login_success1"
+                android:text="完善资料"
+                android:textColor="#f68e5e"
+                android:textSize="@dimen/civi_comment_content_size" />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/bottom_lines"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_alignParentBottom="true">
+
+            <Button
+                android:id="@+id/btn_i_known"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="@drawable/btn_login_success_selector" />
+
+            <Button
+                android:id="@+id/btn_apply_volunteer"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/btn_login_success_apply_selector" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/login_success_lines"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignTop="@+id/bottom_lines"
+            android:layout_marginBottom="50dp"
+            android:background="#e6e6e6" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

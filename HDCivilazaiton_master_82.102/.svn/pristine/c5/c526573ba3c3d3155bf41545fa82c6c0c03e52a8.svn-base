@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@color/title_backround_color">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="@dimen/back_height"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/btn_back"
+                style="@style/TitleLeftBtn"
+                android:background="@null"
+                android:contentDescription="@string/empty_space"
+                android:src="@drawable/btn_back_selector" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/mine_gold"
+            android:textColor="@color/title_text_color"
+            android:textSize="@dimen/title_text_size" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/mine_gold_number_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="当前文明贡献值"
+                android:textColor="#858585"
+                android:textSize="15sp"
+                 />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/mine_gold_number_title"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp">
+
+                <ImageView
+                    android:id="@+id/mine_gold_sign_"
+                    android:layout_width="13dp"
+                    android:layout_height="15dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/mine_mine_gold" />
+
+                <TextView
+                    android:id="@+id/mine_gold_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/mine_gold_sign_"
+                    android:text="1050"
+                    android:textColor="#f68d60"
+                    android:textSize="19sp"
+                     />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="13dp"
+                android:src="@drawable/gold_to_money" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/mine_money_number_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="可兑换人民币"
+                android:textColor="#858585"
+                android:textSize="15sp"
+                 />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/mine_money_number_title"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp">
+
+                <ImageView
+                    android:id="@+id/mine_money_sign_"
+                    android:layout_width="8dp"
+                    android:layout_height="13dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/mine_money_sign" />
+
+                <TextView
+                    android:id="@+id/text_money_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/mine_money_sign_"
+                    android:text="14"
+                    android:textColor="#f68d60"
+                    android:textSize="19sp"
+                     />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/supervise_mysubmit_line_color" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="文明贡献值提现规则"
+            android:textColor="#5d5d5d"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/gold_rulas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/gold_detail"
+            android:textColor="#999999"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:background="@drawable/supervise_must" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/version_explain"
+                android:textColor="#b1b1b1"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/supervise_mysubmit_line_color" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="申请提现金额"
+            android:textColor="#5d5d5d"
+            android:textSize="15sp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/gold_jian"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/btn_icon_jian_selector" />
+
+
+            <EditText
+                android:id="@+id/edit_money_text"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:background="@null"
+                android:numeric="integer"
+                android:singleLine="true"
+                android:maxLength="3"
+                android:text="100"
+                android:textColor="#58bbf7"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/gold_jia"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/btn_icon_jia_selector" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:text="元"
+            android:textColor="#bbbbbb" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="17dp"
+            android:background="@color/supervise_mysubmit_line_color" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp">
+
+
+            <ImageView
+                android:id="@+id/must_sign"
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/supervise_must" />
+
+            <TextView
+                android:id="@+id/dancijine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/must_sign"
+                android:text="单次金额"
+                android:textColor="#afafaf"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/dancijine"
+                android:layout_below="@id/dancijine"
+                android:text="100-500元"
+                android:textColor="#afafaf"
+                android:textSize="15sp" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/apply_bottom_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="107dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/supervise_mysubmit_line_color" />
+
+
+    <Button
+        android:id="@+id/apply_money"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_shape_login_selector"
+        android:text="申请提现"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+
+</LinearLayout>

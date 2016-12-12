@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_scroll_one"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/edge_padding_left"
+    android:paddingRight="@dimen/edge_padding_left"
+    android:paddingTop="@dimen/volunteer_item_margin_top">
+
+    <RelativeLayout
+        android:id="@+id/volunteer_content_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/volunteer_bg"
+        android:clickable="true">
+
+        <ImageView
+            android:id="@+id/iv_dot"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/volunteer_spot_bg" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="17dp"
+            android:layout_toRightOf="@+id/iv_dot"
+            android:text="@string/content_volunteer_one"
+            android:textColor="@color/white"
+            android:textSize="@dimen/volunteer_item_title" />
+
+        <ImageButton
+            android:id="@+id/volunteer_arrow_one"
+            android:layout_width="@dimen/volunteer_arrow_width"
+            android:layout_height="@dimen/volunteer_arrow_height"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/volunteer_arrow_selector" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/volunteer_one_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/volunteer_content_one"
+        android:layout_marginTop="@dimen/volunteer_txt_margin_top"
+        android:text="@string/test_text2"
+        android:textColor="@color/volunteer_signup_txt_color"
+        android:lineSpacingMultiplier="1.25"
+        android:textSize="@dimen/volunteer_item_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/volunteer_one_content"
+        android:layout_marginTop="@dimen/volunteer_item_margin_top"
+        android:background="@color/volunteer_signup_line_color" />
+</RelativeLayout>

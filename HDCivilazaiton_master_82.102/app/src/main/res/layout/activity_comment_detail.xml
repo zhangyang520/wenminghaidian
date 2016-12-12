@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_height"
+            android:background="@color/title_backround_color">
+
+            <RelativeLayout
+                android:id="@+id/rl_back"
+                android:layout_width="@dimen/back_height"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/btn_back"
+                    style="@style/TitleLeftBtn"
+                    android:background="@null"
+                    android:contentDescription="@string/empty_space"
+                    android:src="@drawable/btn_back_selector" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/title_comment"
+                android:textColor="@color/title_text_color"
+                android:textSize="@dimen/title_text_size" />
+
+        </RelativeLayout>
+
+        <!--<com.zhjy.hdcivilization.view.SimpleSwipeRefreshLayout-->
+        <!--android:id="@+id/comment_detail_swipe"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <com.zhjy.hdcivilization.view.NoScrollView
+            android:id="@+id/comment_scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="85dp"
+                android:layout_marginLeft="@dimen/edge_padding_left"
+                android:layout_marginRight="@dimen/edge_padding_left"
+                android:layout_marginTop="20dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/tv_comment_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="创建全国文明城区 争当海淀文明"
+                    android:textColor="@color/comment_detail_title"
+                    android:textSize="@dimen/civi_comment_detail_title_size" />
+
+                <LinearLayout
+                    android:id="@+id/bottom_ll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_comment_title"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/hot_user_id_type"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="文明志愿者"
+                            android:textColor="@color/comment_hot_userid"
+                            android:textSize="@dimen/civi_comment_detail_user_name_size" />
+
+                        <TextView
+                            android:id="@+id/hot_user_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:text="李娜"
+                            android:textColor="@color/comment_hot_name"
+                            android:textSize="@dimen/civi_comment_detail_user_name_size" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/comment_detail_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:text="14:43"
+                        android:textColor="@color/comment_detail_time"
+                        android:textSize="@dimen/civi_comment_detail_time_size" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_bottom_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/bottom_ll"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="17dp"
+                        android:layout_height="19dp"
+                        android:layout_marginRight="3dp"
+                        android:background="@drawable/comment_detail_zan" />
+
+                    <TextView
+                        android:id="@+id/comment_detail_zan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:text="0"
+                        android:textColor="@color/comment_hot_zanortime"
+                        android:textSize="@dimen/civi_comment_detail_zan_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_imge_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ll_bottom_info"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/img_comment_detail_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="240dp"
+                        android:scaleType="centerCrop" />
+
+                    <!--<ImageView-->
+                    <!--android:id="@+id/img_comment_detail_2"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="240dp" />-->
+
+                    <!--<ImageView-->
+                    <!--android:id="@+id/img_comment_detail_3"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="240dp" />-->
+
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/rl_img_list"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_alignBottom="@id/ll_imge_list"
+                    android:layout_alignParentRight="true"
+                    android:background="#6f000000"
+                    android:gravity="center_vertical"
+                    android:visibility="gone">
+
+
+                    <ImageView
+                        android:id="@+id/img_list_logo_"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginLeft="3dp"
+                        android:background="@drawable/img_list_logo" />
+
+
+                    <TextView
+                        android:id="@+id/tv_img_list_number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_toRightOf="@+id/img_list_logo_"
+                        android:text="8"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                </RelativeLayout>
+
+
+                <TextView
+                    android:id="@+id/comment_detail_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ll_imge_list"
+                    android:layout_marginTop="15dp"
+                    android:lineSpacingMultiplier="1.2"
+                    android:textColor="@color/comment_detail_content"
+                    android:textSize="@dimen/civi_comment_detail_content_size" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_below="@+id/comment_detail_content"
+                    android:paddingBottom="20dp">
+
+                    <include layout="@layout/comment_detail_list"></include>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </com.zhjy.hdcivilization.view.NoScrollView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <include layout="@layout/reply_comment_zan_and_share"></include>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#373447</color>
+    <color name="global_bg">#eeeff3</color>
+    <!--公共部分-->
+    <!--整个activity的背景颜色-->
+    <color name="activity_background_color">#ffffff</color>
+    <!--app大标题的背景颜色-->
+    <color name="title_backround_color">#ee59bbf8</color>
+    <!--app大标题的字体颜色-->
+    <color name="title_text_color">#fafdfe</color>
+    <!--浅一点的标题颜色-->
+    <color name="title_light_background_color">#5559bbf8</color>
+    <color name="red">#ff0000</color>
+    <color name="green">#00ff00</color>
+
+    <color name="color1">#ff0f9d58</color>
+    <color name="color2">#ffdb4437</color>
+    <color name="color3">#ff4285f4</color>
+    <color name="color4">#fff4b400</color>
+    <color name="gold_color">#f58c5f</color>
+
+    <!--文明监督模块部分-->
+    <!--文明监督的内容部分提问内容的字体颜色-->
+    <color name="txt_content_supervise_color">#727272</color>
+    <!--文明监督的内容部分提问标题的字体颜色-->
+    <color name="txt_title_supervise_color">#a2bacb</color>
+    <!--#文明监督的查看全部的线条颜色-->
+    <color name="supervise_line_color">#cfeefe</color>
+    <!--文明监督的查看全部文字颜色-->
+    <color name="supervise_seeall_color">#a5a5a5</color>
+    <color name="gold_check_bg">#CACACA</color>
+
+
+    <!--文明监督中我要提报的相关颜色-->
+    <color name="supervise_mysub_left_txt">#ee5e5e5e</color>
+    <color name="supervise_mysub_right_txt">#b0b0b0</color>
+    <color name="supervise_mysubmit_line_color">#d8d8d8</color>
+    <color name="supervise_progress_color_press">#59bcf8</color>
+    <color name="supervise_progress_color">#e7e7e7</color>
+    <color name="supervise_progress_txt">#d7d7d7</color>
+    <color name="supervise_item_press">#fafafa</color>
+
+    <!--文明评论中热门话题item布局的字体颜色-->
+    <color name="comment_hot_title">#5f5f5f</color>
+    <color name="comment_hot_content">#bdbdbd</color>
+    <color name="comment_hot_userid">#a7bec9</color>
+    <color name="comment_hot_name">#4C4C4C</color>
+    <color name="comment_hot_zanortime">#a3a3a3</color>
+
+    <color name="comment_detail_title">#292929</color>
+    <color name="comment_detail_time">#a4a4a4</color>
+    <color name="comment_detail_content">#545454</color>
+    <color name="comment_user_name">#59bbf5</color>
+    <color name="comment_user_type">#76a0b3</color>
+    <color name="comment_user_type_number">#a0a0a0</color>
+    <color name="total_comment_">#434343</color>
+
+    <!--我的话题发布-->
+    <color name="gambit_sub_title">#5e5e5e</color>
+    <color name="gambit_sub_title_hint">#afafaf</color>
+    <color name="gambit_sub_line">#d8d8d8</color>
+    <color name="indicate_line_1">#4AADCA</color>
+    <color name="gry_black_press">#F48E5D</color>
+    <color name="gry_black">#7B95A5</color>
+    <color name="supervise_popup_position_txtcolor">#59baf7</color>
+    <!--我的登录界面-->
+    <color name="login_edit">#bababa</color>
+    <color name="volunteer_bg">#77a9de</color>
+    <color name="mine_item_txt">#647b88</color>
+    <color name="personal_info_bg">#ebf8ff</color>
+
+    <!--志愿者申请 #A5E2F4-->
+    <color name="volunteer_signup_txt_color">#fffffd</color>
+    <color name="volunteer_signup_line_color">#A5E2F4</color>
+
+    <!--转圈的提示颜色-->
+    <color name="kprogresshud_default_color">#b1000000</color>
+    <color name="kprogresshud_default_color_2">#44000000</color>
+    <color name="kprogresshud_grey_color">#449E9E9E</color>
+
+    <!--加载更多-->
+    <color name="grey100">#f5f5f5</color>
+    <color name="secondary_text">#727272</color>
+
+    <!--照相功能-->
+    <color name="camera_backgroud">#f2f2f2</color>
+    <color name="btn_ground">#ffffff</color>
+    <color name="camera_line_color">#7d7d7d</color>
+</resources>

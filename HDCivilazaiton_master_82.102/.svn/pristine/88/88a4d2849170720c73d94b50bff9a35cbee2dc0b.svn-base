@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sub_gambit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/rl_gambit_sub"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@color/title_backround_color">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="@dimen/back_height"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/btn_back"
+                style="@style/TitleLeftBtn"
+                android:background="@null"
+                android:contentDescription="@string/empty_space"
+                android:src="@drawable/btn_back_selector" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/title_gambit_sub"
+            android:textColor="@color/title_text_color"
+            android:textSize="@dimen/title_text_size" />
+
+    </RelativeLayout>
+
+    <!--可以伸缩的界面-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/rl_gambit_sub"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_title"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/gambit_sub_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="标题"
+                    android:textColor="@color/gambit_sub_title"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:layout_width="@dimen/supervise_img_must_height"
+                    android:layout_height="@dimen/supervise_img_must_height"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/supervise_must" />
+
+                <EditText
+                    android:id="@+id/gambit_sub_edittext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:hint="请输入标题"
+                    android:singleLine="true"
+                    android:textColor="@color/gambit_sub_title"
+                    android:textColorHint="@color/gambit_sub_title_hint"
+                    android:textCursorDrawable="@drawable/color_cursor" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="52dp"
+                android:background="@color/gambit_sub_line" />
+
+            <LinearLayout
+                android:id="@+id/ll_img_des"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="图片"
+                        android:textColor="@color/gambit_sub_title"
+                        android:textSize="18sp" />
+
+                    <!--事件类型文字-->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_left_txt_supervise"
+                        android:text="@string/theme_upload_img_des"
+                        android:textColor="@color/gambit_sub_title_hint"
+                        android:textSize="@dimen/supervise_mysub_left_txt_size" />
+                </LinearLayout>
+
+                <GridView
+                    android:id="@+id/gambit_sub_upload"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="25dp"
+                    android:layout_marginTop="18dp"
+                    android:horizontalSpacing="@dimen/grid_horizontal_space"
+                    android:verticalSpacing="@dimen/grid_horizontal_space"
+                    android:numColumns="3"
+                    android:stretchMode="columnWidth">
+
+                </GridView>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gambit_sub_line" />
+
+
+            <LinearLayout
+                android:id="@+id/ll_content"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="内容"
+                    android:textColor="@color/gambit_sub_title"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/gambit_sub_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:gravity="start"
+                    android:hint="说点什么"
+                    android:lines="8"
+                    android:textColor="@color/gambit_sub_title"
+                    android:textColorHint="@color/gambit_sub_title_hint"
+                    android:textCursorDrawable="@drawable/color_cursor" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+    <ImageButton
+        android:id="@+id/btn_gambit_sub"
+        android:layout_width="210dp"
+        android:layout_height="70dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="@drawable/btn_gambit_sub_selector" />
+</LinearLayout>

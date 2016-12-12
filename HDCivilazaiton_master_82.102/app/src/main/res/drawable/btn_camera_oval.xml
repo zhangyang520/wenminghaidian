@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+  <corners android:radius="@dimen/radius"></corners>
+    <stroke android:color="@color/camera_line_color" android:width="@dimen/oval_line_width"></stroke>
+      <solid android:color="@color/btn_ground"></solid>
+</shape>

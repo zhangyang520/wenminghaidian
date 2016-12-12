@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    >
+
+   <!--标题-->
+    <TextView
+        android:id="@+id/tv_comment_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/civi_comment_detail_title_size"
+        android:textColor="@color/comment_detail_title"
+        android:text="安全会议...."/>
+
+    <!--发布时间和点赞-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        >
+
+        <!--发布时间:2016-10-11-->
+        <TextView
+            android:id="@+id/tv_publishj_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14:43"
+            android:textColor="@color/comment_detail_time"
+            android:textSize="@dimen/civi_comment_detail_time_size"
+            android:layout_alignParentLeft="true"
+            />
+
+        <!--点赞内容-->
+        <LinearLayout
+            android:id="@+id/ll_bottom_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:layout_width="19.5dp"
+                android:layout_height="19dp"
+                android:layout_marginRight="3dp"
+                android:src="@drawable/comment_detail_zan" />
+
+            <TextView
+                android:id="@+id/comment_detail_zan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text="0"
+                android:textColor="@color/comment_hot_zanortime"
+                android:textSize="@dimen/civi_comment_detail_zan_size" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_top"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/volunteer_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@color/title_backround_color">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="@dimen/back_height"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/btn_back"
+                style="@style/TitleLeftBtn"
+                android:background="@null"
+                android:contentDescription="@string/empty_space"
+                android:src="@drawable/btn_back_selector" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/title_volunteer_sign_up"
+            android:textColor="@color/title_text_color"
+            android:textSize="@dimen/title_text_size" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_img"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:background="@drawable/volunterr_sign_bg">
+
+        <ImageButton
+            android:id="@+id/volunteer_on_line"
+            android:layout_width="180dp"
+            android:layout_height="45dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/btn_volunteer_line" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/volunteer_bg">
+
+        <LinearLayout
+            android:id="@+id/ll_text_total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/content_volunteer_one"></include>
+
+            <include layout="@layout/content_volunteer_two"></include>
+
+            <include layout="@layout/content_volunteer_three"></include>
+
+            <include layout="@layout/content_volunteer_four"></include>
+
+            <include layout="@layout/content_volunteer_five"></include>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!--android:background="@color/volunteer_signup_line_color"-->
+    <View
+        android:id="@+id/scroll_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/edge_padding_left"
+        android:layout_marginRight="@dimen/edge_padding_left" />
+
+    <RelativeLayout
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:id="@+id/rl_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- 270dp 160dp-->
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="104.17dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/volunteer_sign_name_background" />
+
+        <ImageView
+            android:id="@+id/iv_volunteer_want_sub"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerInParent="true"
+            android:clickable="true"
+            android:src="@drawable/volunteer_sign_name_selector" />
+    </RelativeLayout>
+
+
+</LinearLayout>

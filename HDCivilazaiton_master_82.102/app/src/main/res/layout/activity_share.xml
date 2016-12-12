@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/rela"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@color/title_backround_color">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="@dimen/back_height"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/btn_back"
+                style="@style/TitleLeftBtn"
+                android:background="@null"
+                android:contentDescription="@string/empty_space"
+                android:src="@drawable/btn_back_selector" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/mine_share_"
+            android:textColor="@color/title_text_color"
+            android:textSize="@dimen/title_text_size" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_centerHorizontal="true"
+        android:id="@+id/rel"
+        android:layout_marginTop="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rela"
+        >
+
+        <ImageView
+            android:id="@+id/share_er_code"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/mine_share_code" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@id/rel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="扫描二维码下载"
+            android:textColor="#666666"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/textview1"
+            android:text="文明海淀APP"
+            android:textColor="#59bcf8"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="#d9e1e4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="分享给朋友"
+                android:textColor="#7690a1" />
+
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="#d9e1e4" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:visibility="gone"
+                android:id="@+id/share_weibo"
+                android:layout_width="@dimen/share_wight"
+                android:layout_height="@dimen/share_height"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/btn_share_sign_selector" />
+
+            <Button
+                android:id="@+id/share_weixin"
+                android:layout_width="@dimen/share_wight"
+                android:layout_height="@dimen/share_height"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/btn_share_weixin_selector" />
+
+            <Button
+                android:id="@+id/share_Circle_friend"
+                android:layout_width="@dimen/share_wight"
+                android:layout_height="@dimen/share_height"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/btn_share_friend_selector" />
+
+            <Button
+                android:visibility="gone"
+                android:id="@+id/share_qq"
+                android:layout_width="@dimen/share_wight"
+                android:layout_height="@dimen/share_height"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/btn_share_qq_selector" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

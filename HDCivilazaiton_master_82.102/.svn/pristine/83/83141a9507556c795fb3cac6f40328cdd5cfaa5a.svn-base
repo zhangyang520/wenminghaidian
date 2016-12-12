@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zhjy.hdcivilization.activity.SuperviseEventTypeActivity">
+
+    <!--
+    标题部分
+    -->
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@color/title_backround_color">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="@dimen/back_height"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/btn_back"
+                style="@style/TitleLeftBtn"
+                android:background="@null"
+                android:contentDescription="@string/empty_space"
+                android:src="@drawable/btn_back_selector" />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/title_supervise_event_type"
+            android:textColor="@color/title_text_color"
+            android:textSize="@dimen/title_text_size" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_event_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@null"
+        android:footerDividersEnabled="true"
+        android:headerDividersEnabled="false"
+        android:divider="@color/supervise_mysubmit_line_color"
+        android:dividerHeight="@dimen/supervise_mysub_line_height"
+        android:listSelector="@drawable/event_type_selector"
+        android:scrollbars="vertical"
+        android:scrollbarSize="2dp"
+        android:fastScrollEnabled="true"
+        android:scrollbarThumbVertical="@color/gry_black"
+        android:scrollbarStyle="insideOverlay"
+        ></ListView>
+</LinearLayout>

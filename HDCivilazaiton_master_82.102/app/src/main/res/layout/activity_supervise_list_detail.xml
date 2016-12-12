@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_background_color"
+    >
+    <!--详细界面-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@color/title_backround_color">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="@dimen/back_height"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/btn_back"
+                style="@style/TitleLeftBtn"
+                android:background="@null"
+                android:contentDescription="@string/empty_space"
+                android:src="@drawable/btn_back_selector" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/detail"
+            android:textColor="@color/title_text_color"
+            android:textSize="@dimen/title_text_size" />
+
+    </RelativeLayout>
+
+    <!--内容部分是可以滑动的!-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--整体部分-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <!--事件类型-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/edge_padding_left"
+                android:paddingRight="@dimen/edge_padding_left"
+                >
+                <TextView
+                    android:id="@+id/tv_event"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/supervise_mysub_right_txt"
+                    android:text="事件类型"
+                    android:textSize="@dimen/supervise_txt_size"
+                    android:layout_marginTop="@dimen/supervise_detail_margin_top"
+                    android:layout_marginBottom="@dimen/supervise_detail_margin_top"
+                    />
+
+                <View
+                    android:layout_below="@+id/tv_event"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/supervise_mysub_line_height"
+                    android:background="#eeeeee"
+                    ></View>
+                <TextView
+                    android:layout_toRightOf="@+id/tv_event"
+                    android:id="@+id/tv_event_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/supervise_mysub_left_txt"
+                    android:text="环境脏污  小广告"
+                    android:textSize="@dimen/supervise_txt_size"
+                    android:layout_alignTop="@+id/tv_event"
+                    android:layout_marginLeft="@dimen/supervise_item_margin_left"
+                    />
+            </RelativeLayout>
+
+            <!--上报时间-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/edge_padding_left"
+                android:paddingRight="@dimen/edge_padding_left"
+                >
+                <TextView
+                    android:id="@+id/tv_submit_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/supervise_mysub_right_txt"
+                    android:text="上报时间"
+                    android:textSize="@dimen/supervise_txt_size"
+                    android:layout_marginTop="@dimen/supervise_detail_margin_top"
+                    android:layout_marginBottom="@dimen/supervise_detail_margin_top"
+                    />
+
+                <View
+                    android:layout_below="@+id/tv_submit_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/supervise_mysub_line_height"
+                    android:background="#eeeeee"
+                    ></View>
+                <TextView
+                    android:layout_toRightOf="@+id/tv_submit_time"
+                    android:id="@+id/tv_time_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/supervise_mysub_left_txt"
+                    android:text="08-25  13:57"
+                    android:textSize="@dimen/supervise_txt_size"
+                    android:layout_alignTop="@+id/tv_submit_time"
+                    android:layout_marginLeft="@dimen/supervise_item_margin_left"
+                    />
+            </RelativeLayout>
+
+            <!--详细地址-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/edge_padding_left"
+                android:paddingRight="@dimen/edge_padding_left"
+                >
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:id="@+id/tv_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/supervise_mysub_right_txt"
+                    android:text="详细地址"
+                    android:textSize="@dimen/supervise_txt_size"
+                    android:layout_marginTop="@dimen/supervise_detail_margin_top"
+                    android:layout_marginBottom="@dimen/supervise_detail_margin_top"
+                    />
+
+                <View
+                    android:layout_below="@+id/tv_address_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/supervise_mysub_line_height"
+                    android:background="#eeeeee"
+                    ></View>
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="@dimen/supervise_detail_margin_top"
+                    android:layout_marginBottom="@dimen/supervise_detail_margin_top"
+                    android:layout_toRightOf="@+id/tv_address"
+                    android:id="@+id/tv_address_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/supervise_mysub_left_txt"
+                    android:text="中观存发激动啥房间爱搜附近奥斯福建奥大家发哦是打飞机哦爱上飞机奥斯的风景"
+                    android:textSize="@dimen/supervise_txt_size"
+                    android:layout_marginLeft="@dimen/supervise_item_margin_left"
+                    />
+            </RelativeLayout>
+
+            <!--所属街道-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/edge_padding_left"
+                android:paddingRight="@dimen/edge_padding_left"
+                >
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:id="@+id/tv_belong_street"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/supervise_mysub_right_txt"
+                    android:text="所属街道"
+                    android:textSize="16sp"
+                    android:layout_marginTop="@dimen/supervise_detail_margin_top"
+                    android:layout_marginBottom="@dimen/supervise_detail_margin_top"
+                    />
+
+                <View
+                    android:layout_below="@+id/tv_belong_street"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/supervise_mysub_line_height"
+                    android:background="#eeeeee"
+                    ></View>
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="@dimen/supervise_detail_margin_top"
+                    android:layout_marginBottom="@dimen/supervise_detail_margin_top"
+                    android:layout_toRightOf="@+id/tv_belong_street"
+                    android:id="@+id/tv_belong_street_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/supervise_mysub_left_txt"
+                    android:text="中关村街道"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="@dimen/supervise_item_margin_left"
+                    />
+            </RelativeLayout>
+
+            <!--图片展示-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/edge_padding_left"
+                android:paddingRight="@dimen/edge_padding_left"
+                >
+
+                <TextView
+                    android:id="@+id/tv_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/supervise_mysub_right_txt"
+                    android:text="图片"
+                    android:textSize="@dimen/supervise_txt_size"
+                    android:layout_marginTop="@dimen/supervise_detail_margin_top"
+                    />
+
+                <!--图片的集合-->
+                <LinearLayout
+                    android:layout_marginTop="14dp"
+                    android:layout_below="@+id/tv_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/ll_image"
+                    android:layout_marginBottom="@dimen/supervise_detail_margin_top"
+                    >
+
+                    <ImageView
+                        android:id="@+id/image_one"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        />
+
+                    <ImageView
+                        android:id="@+id/image_two"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_marginLeft="@dimen/supervise_image_magin_left"
+                        />
+
+                    <ImageView
+                        android:id="@+id/image_three"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_marginLeft="@dimen/supervise_image_magin_left"
+                        />
+                </LinearLayout>
+
+                <View
+                    android:layout_below="@+id/ll_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/supervise_mysub_line_height"
+                    android:background="#eeeeee"
+                    ></View>
+            </RelativeLayout>
+
+            <!--事件描述-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/edge_padding_left"
+                android:paddingRight="@dimen/edge_padding_left"
+                >
+                <TextView
+                    android:id="@+id/tv_event_des"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/supervise_mysub_right_txt"
+                    android:text="事件描述"
+                    android:textSize="@dimen/supervise_txt_size"
+                    android:layout_marginTop="@dimen/supervise_detail_margin_top"
+                    />
+
+                <View
+                    android:layout_below="@+id/tv_event_des_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/supervise_mysub_line_height"
+                    android:background="#eeeeee"
+                    ></View>
+
+                <TextView
+                    android:layout_below="@+id/tv_event_des"
+                    android:id="@+id/tv_event_des_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/supervise_mysub_left_txt"
+                    android:text="此处有多人进行小广告张贴和露天烧烤的所发生的发送到发送到发送到非发大水发未发生大发发按时发达时发生的发顺丰啊啊的发达"
+                    android:textSize="@dimen/supervise_txt_size"
+                    android:layout_marginBottom="@dimen/supervise_detail_margin_top"
+                    />
+            </RelativeLayout>
+
+
+            <!--进度条的展示-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/edge_padding_left"
+                android:paddingRight="@dimen/edge_padding_left"
+                >
+                <TextView
+                    android:id="@+id/tv_progress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/supervise_mysub_right_txt"
+                    android:text="进度"
+                    android:textSize="@dimen/supervise_txt_size"
+                    android:layout_marginTop="@dimen/supervise_detail_margin_top"
+                    />
+                <!--进度条的展示-->
+                <com.zhjy.hdcivilization.view.SuperviseProgressView
+                    android:id="@+id/supervise_rl_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_progress"
+                    android:layout_marginLeft="@dimen/edge_padding_left"
+                    android:layout_marginRight="@dimen/edge_padding_left"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="@dimen/supervise_detail_margin_top"
+                    >
+
+                    <RelativeLayout
+                        android:id="@+id/rl_progress1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+                        <!--第一个进度-->
+                        <ImageView
+                            android:id="@+id/supervise_iv_progress_1"
+                            android:layout_width="@dimen/btn_round_width"
+                            android:layout_height="@dimen/btn_round_width"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/supervise_icon_progress" />
+
+                        <TextView
+                            android:id="@+id/supervise_tv_content_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/supervise_iv_progress_1"
+                            android:layout_centerHorizontal="true"
+                            android:text="已受理"
+                            android:textSize="@dimen/seeall_txtsize_supervise" />
+                    </RelativeLayout>
+
+
+                    <!-- android:layout_toRightOf="@id/rl_progress1"-->
+                    <TextView
+                        android:id="@+id/supervise_tv_progress_1"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/supervise_progress_line_height"
+                        android:background="#59bcf8" />
+
+                    <!-- &lt;!&ndash;文字 已上报&ndash;&gt;
+                     <TextView
+                         android:id="@+id/supervise_tv_name_1"
+                         android:layout_below="@id/supervise_iv_progress_1"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="已上报"
+                         android:textColor="#59bcf8"
+                         />-->
+                    <!-- android:layout_toRightOf="@+id/supervise_tv_progress_1"-->
+                    <RelativeLayout
+                        android:id="@+id/rl_progress2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <!--第二个进度-->
+                        <ImageView
+                            android:id="@+id/supervise_iv_progress_2"
+                            android:layout_width="@dimen/btn_round_width"
+                            android:layout_height="@dimen/btn_round_width"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/supervise_icon_progress" />
+
+                        <TextView
+                            android:id="@+id/supervise_tv_content_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/supervise_iv_progress_2"
+                            android:layout_centerHorizontal="true"
+                            android:text="待复核"
+                            android:textSize="@dimen/seeall_txtsize_supervise" />
+                    </RelativeLayout>
+
+                    <!-- android:layout_toRightOf="@+id/rl_progress2"-->
+                    <TextView
+                        android:id="@+id/supervise_tv_progress_2"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/supervise_progress_line_height"
+                        android:background="#59bcf8" />
+
+                    <!--android:layout_toRightOf="@+id/supervise_tv_progress_2"-->
+                    <RelativeLayout
+                        android:id="@+id/rl_progress3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <!--第三个进度-->
+                        <ImageView
+                            android:id="@+id/supervise_iv_progress_3"
+                            android:layout_width="@dimen/btn_round_width"
+                            android:layout_height="@dimen/btn_round_width"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/supervise_icon_progress" />
+
+                        <TextView
+                            android:id="@+id/supervise_tv_content_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/supervise_iv_progress_3"
+                            android:layout_centerHorizontal="true"
+                            android:text="待复核"
+                            android:textSize="@dimen/seeall_txtsize_supervise" />
+                    </RelativeLayout>
+
+                </com.zhjy.hdcivilization.view.SuperviseProgressView>
+
+                <View
+                    android:layout_below="@+id/supervise_rl_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/supervise_mysub_line_height"
+                    android:background="#eeeeee"
+                    ></View>
+            </RelativeLayout>
+
+
+            <!--事件描述-->
+            <RelativeLayout
+                android:id="@+id/rl_shenhe_error"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/edge_padding_left"
+                android:paddingRight="@dimen/edge_padding_left"
+                >
+                <TextView
+                    android:id="@+id/tv_event_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/supervise_mysub_right_txt"
+                    android:text="审核失败原因"
+                    android:textSize="@dimen/supervise_txt_size"
+                    android:layout_marginTop="@dimen/supervise_detail_margin_top"
+                    />
+
+                <View
+                    android:layout_below="@+id/tv_event_error_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/supervise_mysub_line_height"
+                    android:background="#eeeeee"
+                    ></View>
+
+                <TextView
+                    android:layout_below="@+id/tv_event_error"
+                    android:id="@+id/tv_event_error_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/supervise_mysub_left_txt"
+                    android:text="此处有多人进行小广告张贴和露天烧烤的所发生的发送到发送到发送到非发大水发未发生大发发按时发达时发生的发顺丰啊啊的发达"
+                    android:textSize="@dimen/supervise_txt_size"
+                    android:layout_marginBottom="@dimen/supervise_detail_margin_top"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

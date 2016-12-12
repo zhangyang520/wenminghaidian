@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/share_sign"
+        android:layout_width="@dimen/share_wight"
+        android:layout_height="@dimen/share_height"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/btn_share_sign_selector" />
+
+    <Button
+        android:id="@+id/share_weixin"
+        android:layout_width="@dimen/share_wight"
+        android:layout_height="@dimen/share_height"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/btn_share_weixin_selector" />
+
+    <Button
+        android:id="@+id/share_Circle_friend"
+        android:layout_width="@dimen/share_wight"
+        android:layout_height="@dimen/share_height"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/btn_share_friend_selector" />
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/share_qq"
+        android:layout_width="@dimen/share_wight"
+        android:layout_height="@dimen/share_height"
+        android:background="@drawable/btn_share_qq_selector" />
+
+</LinearLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#e2f2fc">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#6f9bbd" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="13dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/enter_comment"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="3"
+            android:background="@drawable/btn_shape_share_and_zan"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:text="点击输入评论"
+            android:textColor="#BBBBBB"
+            android:textSize="17sp" />
+
+
+        <RelativeLayout
+            android:id="@+id/rl_bottom_comment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dp"
+            android:layout_weight="1"
+            android:clickable="true">
+
+            <TextView
+                android:id="@+id/bottom_comment"
+                android:layout_width="23dp"
+                android:layout_height="21dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/btn_bottm_comment_selector"
+                android:clickable="false" />
+
+            <TextView
+                android:id="@+id/tv_comment_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/bottom_comment"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/btn_shape_comment_number_bg"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:textColor="@color/white"
+                android:textSize="9sp"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rl_bottom_logo_zan"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_weight="1"
+            android:clickable="true">
+
+            <TextView
+                android:id="@+id/bottom_logo_zan"
+                android:layout_width="21dp"
+                android:layout_height="21dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/btn_bottm_zan_selector"
+                android:clickable="false" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_bottom_shared"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:clickable="true">
+
+            <TextView
+                android:id="@+id/bottom_shared"
+                android:layout_width="21dp"
+                android:layout_height="19dp"
+                android:background="@drawable/btn_bottom_shared_selector"
+                android:clickable="false" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/edge_padding_left"
+    android:paddingRight="@dimen/edge_padding_left"
+    android:paddingTop="24dp">
+
+
+    <RelativeLayout
+        android:id="@+id/rl_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:visibility="visible"
+            android:id="@+id/civistate_iv"
+            android:layout_width="120dp"
+            android:layout_height="92dp"
+            android:src="@drawable/user_pic_defaut"
+            android:scaleType="centerCrop" />
+
+    </RelativeLayout>
+
+    <!--标题-->
+    <TextView
+        android:id="@+id/civistate_tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/rl_img"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/rl_img"
+        android:singleLine="true"
+        android:text="海淀创建全国文明城区"
+        android:textColor="#5f5f5f"
+        android:textSize="@dimen/state_and_notice_title_size" />
+
+    <!--描述信息-->
+    <TextView
+        android:id="@+id/civistate_tv_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/civistate_tv_title"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="7dp"
+        android:layout_toRightOf="@id/rl_img"
+        android:ellipsize="end"
+        android:lines="2"
+        android:text="为建设环境优美,和谐宜居的l高科技核心区域改善市民的生活"
+        android:textColor="#a3a3a3"
+        android:textSize="@dimen/state_and_notice_content_size" />
+
+    <!--点赞-->
+    <TextView
+        android:id="@+id/civistate_tv_zan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/civistate_tv_des"
+        android:layout_alignParentRight="true"
+        android:singleLine="true"
+        android:text="赞513"
+        android:textColor="#a5a5a5"
+        android:textSize="@dimen/state_and_notice_zan_size" />
+
+    <!--时间-->
+    <TextView
+        android:id="@+id/civistate_tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_toLeftOf="@+id/civistate_tv_zan"
+        android:text="09:30"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/civistate_tv_des"
+        android:textColor="#a5a5a5"
+        android:textSize="@dimen/state_and_notice_time_size" />
+
+
+    <TextView
+        android:id="@+id/supervise_v_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/civistate_tv_time"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@color/supervise_mysubmit_line_color"></TextView>
+</RelativeLayout>

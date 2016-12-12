@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_background_color"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@color/title_backround_color">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="@dimen/back_height"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/btn_back"
+                style="@style/TitleLeftBtn"
+                android:background="@null"
+                android:contentDescription="@string/empty_space"
+                android:src="@drawable/btn_back_selector" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/title_supervise"
+            android:textColor="@color/title_text_color"
+            android:textSize="@dimen/title_text_size" />
+
+        <!--我的上报-->
+        <RelativeLayout
+            android:id="@+id/rl_tv_mySubmit"
+            android:layout_width="@dimen/my_supervise_width"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="right"
+            >
+            <TextView
+                android:id="@+id/tv_mySubmit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_left_"
+                android:text="@string/title_right_submit"
+                android:textColor="@color/title_text_color"
+                android:textSize="@dimen/title_right_size"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                />
+            <RelativeLayout
+                android:id="@+id/rl_txt_number"
+                android:layout_alignBottom="@id/tv_mySubmit"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="13dp"
+                android:background="@drawable/civilization_number_prompt"
+                android:layout_width="12dp"
+                android:layout_height="12dp">
+                <TextView
+                    android:text="10"
+                    android:textSize="9sp"
+                    android:textColor="@color/white"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/civi_supervise_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!--文明监督的内容的滑动模块-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/ll_content_top"
+            >
+
+            <include layout="@layout/content_one_civisupervise"></include>
+
+            <include layout="@layout/content_two_civisupervise"></include>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp">
+
+        <!-- 270dp 160dp-->
+        <ImageView
+            android:layout_width="215dp"
+            android:layout_height="112.703dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/supervise_background" />
+
+        <ImageView
+            android:layout_marginBottom="4dp"
+            android:id="@+id/iv_supervise_want_sub"
+            android:layout_width="124dp"
+            android:layout_height="124dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:clickable="true"
+            android:src="@drawable/supervise_mysub_selector" />
+    </RelativeLayout>
+</LinearLayout>

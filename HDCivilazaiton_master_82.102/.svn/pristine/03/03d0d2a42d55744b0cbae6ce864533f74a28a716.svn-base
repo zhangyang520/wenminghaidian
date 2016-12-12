@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="13dp"
+    android:paddingRight="13dp"
+    android:paddingTop="20dp">
+
+    <LinearLayout
+        android:id="@+id/user_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/item_user_pic"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+           />
+
+        <TextView
+            android:id="@+id/item_user_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="夕阳123"
+            android:textColor="#82a2b9"
+            android:textSize="@dimen/comment_item_title" />
+
+        <TextView
+            android:id="@+id/item_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="夕阳123"
+            android:textColor="#7a7a7a"
+            android:textSize="@dimen/comment_item_title" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/item_comment_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_info"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="3dp"
+        android:text="@string/comment_content_detail"
+        android:textColor="#545454"
+        android:textSize="@dimen/comment_item_content" />
+
+
+    <LinearLayout
+        android:id="@+id/comment_time_and_comment_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_comment_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/item_time__"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3小时前"
+            android:textColor="@color/comment_detail_time" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_below="@id/comment_time_and_comment_number"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/supervise_mysubmit_line_color" />
+
+</RelativeLayout>

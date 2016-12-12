@@ -1,0 +1,317 @@
+package com.zhjy.hdcivilization.utils;
+
+/**
+ * @项目名：AroundYou
+ * @类名称：TxtUtil
+ * @类描述： 常量字符串参数
+ * @创建人：HXF
+ * @修改人：
+ * @创建时间：2015-11-10 下午5:11:01
+ */
+public class HDCivilizationConstants{
+
+    private static HDCivilizationConstants instance;
+
+    private HDCivilizationConstants() {
+
+    }
+
+    public static HDCivilizationConstants getInstance() {
+        if (instance == null) {
+            synchronized (HDCivilizationConstants.class) {
+                if (instance == null) {
+                    instance = new HDCivilizationConstants();
+                }
+            }
+        }
+        return instance;
+    }
+
+    //一些路径常量的标识
+    public static final String ROOTPATH="HDCivilization";
+    public static final String DEBUGPATH="debuginfo";
+    public static final String ZIPPATH="";
+    public static final String ICON_PATH="iconcache";
+    public static final String PIC_PATH="picImg";
+    public static final String UP_LOAD_PIC="upload_pic";
+    public static final String DOWNLOAD_PATH="download";
+    public static final String XMLPATH="xmlPath";//xml的路径
+
+    public static final int CILIVIZATION_NOTICE=99;//通知公告的相关的message--what请求码
+    public static final int CILIVIZATION_NOTICE_REQUEST=205;//通知公告轮播
+    public static final int CILIVIZATION_NOTICE_TIMER=98;//通知公告的定时器
+    public static final int REQUEST_FIRST_PAGE=101;//请求第一页的数据
+    public static final int REFRESH_PAGE=102;//刷新第一页的数据
+    public static final int REFRESH_GOLD_NUMBER=209;//更新金币的数量
+    public static final int LOAD_MORE=103;//加载下一页的数据
+    public static final int HEAD_DATA=106;//轮播页请求码
+    public static final int ERROR_CODE=104;//请求错误的状态码!
+    public static final int CONTENT_SEND=209;//内容发送
+    public static final int CILIVIZATION_VIEWPAGER_REQUEST=105;//首页轮播图片
+    public static final int CILIVIZATION_NUMBER_REQUEST=206;//首页提示数字
+    public static final int CILIVIZATION_CIVISTATE_LIST_FIRST_PAGE =207;//文明动态中的列表标识数字
+    public static final int CILIVIZATION_CIVISTATE_LIST_REFRESH_PAGE =207;//文明动态中的列表标识数字
+    public static final String ACTION_CODE="action_code";
+    public static final int LOAD_REQUEST=208;//登录成功
+
+    public static final String ERROR_CONTENT="content";//内容描述的键
+    public static final int PARSE_DATA_ERROR =103;//请求数据异常
+
+    public static final String CHAR_DELEGATE="————";//分隔符
+
+    public static  final String LOCATION_STATE="LOCATION_STATE";//定位状态
+    public static  final String SUCCESS="success";//成功
+    public static  final String FAILURE="failure";//失败
+    public static  final String SHIELD="themeShield";//话题被屏蔽
+    public static final  String BUSINESS_ERROR="businessError";//业务失败
+
+    public static final String FAILURE_NO_USER="failure_NoUser";
+    public static final String FAILURE_NO_VOLLENTEER="failure_NoVollenteer";
+    public static final String FAILURE_NO_VOLLENTEER1="failure_NoVollenteer1";
+    public static final String FAILURE_NO_MATCH_VOLLENTEER="failure_NoMatchVollenteer";
+    public static final int LOCATION_STATE_FAILE=2000*60;//定位失败超时时间
+    public static final String PIC_NAME="temp.jpg";//头像的图片的名字
+    public static final String PIC_NAME_TYPE="type.jpg";//头像的图片的名字
+
+
+    /***以下是接口方法名***/
+    public static final String SUPERVISE_COMMIT_DATA="subSuperviseContent";
+
+    //文明监督模块:
+    public static final int SUPERVISE_EVENT_DES_LENGTH=0;
+    public static final int SUPERVISE_EVENT_DES_LENGTH_MAX=120;
+
+    public static final int SEND_CODE =501;//获取验证码
+    public static final int SETTING_PUSHSETTING =601;//设置监听设置
+    public static final int LOGIN_OUT_APP =602;//注销
+    public static final String ORDINARYUSER ="0";//普通用户
+    public static final String ORDINARYUSERSTOP ="1";//普通用户停用
+    public static final String VOLUNTEERAPPLYING ="2";//普通用户志愿者申请中
+    public static final String VOLUNTEER ="3";//志愿者用户
+    public static final String VOLUNTEERS ="4";//志愿者用户
+
+    //我的上报中的任务审批状态
+    public static final int SUBMIT_TASK_STATUS_0=0;
+    public static final int SUBMIT_TASK_STATUS_1=1;
+    public static final int SUBMIT_TASK_STATUS_2=2;
+    public static final int SUBMIT_TASK_STATUS_3=3;
+    public static final int SUBMIT_TASK_STATUS_4=4;
+    public static final int SUBMIT_TASK_STATUS_5=5;
+    public static final int SUBMIT_TASK_STATUS_DEFAULT=-1;
+
+    public static final int NET_GAP_TIME = 15000;//访问网络的间隔时间
+
+
+    public static final String STATUS_0 = "0";//status值
+    public static final String STATUS_2 = "2";//status值
+    public static final String STATUS_3 = "3";
+
+
+    public static final int LOW_PERMISSION_ERROR_CODE=303;//权限过低的错误码:需要进行提示用户,进行退出该界面
+    public static final int MIN_SEND_COMMENT_LENGTH=120;//发送主题,评论,动态,通知公告的内容的最小长度
+    public static final int NO_MATCH_VOLLENTEER=304;//权限过低的错误码:需要进行提示用户,进行退出该界面
+
+    public static final int MAIN_NOTICE_COUNT=4;//通知公告的轮播个数
+    public static final int CIVI_STATE_COUNT=4;//文明动态的轮播的的个数
+
+    //HDC_CommentDetail实体类的话题类型:
+    public static final int HOT_TOPIC_TYPE=0;//热门话题类型
+    public static final int SUB_TOPIC_TYPE=1;//发表话题类型
+    public static final int JOIN_TOPIC_TYPE=2;//参与话题类型
+
+    public static final String STATE_SUCCESS="success";//成功状态
+    public static final String STATE_FAILURE="failure";//失败状态
+
+    /**
+     * 主体的类型！
+     */
+    public static final String THEME_TYPE="theme";//话题类型
+    public static final String NEWS_TYPE="news";//动态类型
+    public static final String NOTIFY_TYPE="notify";//通知类型
+    public static final String COMMENT_TYPE="comment";//评论类型
+
+    public static final int MESSAGE_DIAN_ZAN=1001;//点赞的消息码！
+    public static final int MESSAGE_DIAN_ZAN_NOT=1002;//点赞的不能重复消息码！
+
+    public static final String SUPERVICE = "spervice";
+    public static final String COMMENT = "comment";
+    public static final String STATE = "state";
+    public static final String NOTICE = "notice";
+    public static final String MINE = "mine";
+    public static final int APPLY_NUMBER=202;//交易查询的请求码
+    public static final String IS_LOGIN="is_login";
+
+    public static final int MIN_COIN=100;//最低的兑换的金币数
+    /*
+     *所有接口的操作提示信息
+     * 将解析数据错误:提示操作失败
+     * 业务逻辑错误:提示操作失败
+     */
+     public static final String NUMBER_SUPERVISE_KEY="1";
+     public static final String NUMBER_COMMENT_KEY="2";
+     public static final String NUMBER_STATE_KEY="3";
+     public static final String NUMBER_NOTIFY_KEY="4";
+
+
+     //字数的限制:
+    //志愿者姓名
+    public static final int VOLUNTEER_NAME_MAX_LENGTH=4;
+    public static final int VOLUNTEER_NAME_MIN_LENGTH=2;
+
+    //志愿者详细地址
+    public static final int VOLUNTEER_ADDRESS_MAX_LENGTH=30;
+    public static final int VOLUNTEER_ADDRESS_MIN_LENGTH=0;
+
+    //志愿者经历
+    public static final int VOLUNTEER_EXPERIENCE_MAX_LENGTH=100;
+    public static final int VOLUNTEER_EXPERIENCE_MIN_LENGTH=0;
+
+    //银行卡号
+    public static final int VOLUNTEER_BANK_MAX_LENGTH=19;
+    public static final int VOLUNTEER_BANK_MIN_LENGTH=16;
+
+    //微信号
+    public static final int VOLUNTEER_WEIXIN_MIN_LENGTH=16;
+
+
+    //话题发布
+    //主题
+    public static final int SUBMIT_THEME_TITLE_MAX_LENGTH=20;
+    public static final int SUBMIT_THEME_TITLE_MIN_LENGTH=0;
+
+    //事件描述
+    public static final int SUBMIT_THEME_DES_MAX_LENGTH=1000;
+    public static final int SUBMIT_THEME_DES_MIN_LENGTH=0;
+
+    //文明监督内容提报:
+    //地址信息
+    public static final int SUBMIT_ADDRESS_MAX_LENGTH=30;
+
+    //修改昵称 最多输入6个汉字
+    public static final int USER_NAME_MAX_LENGTH=6;
+
+    //金币兑换中的:单位和比例值
+    public static final int GOLD_COIN_RATE=10;
+    public static final int GOLD_NEW=2;
+    public static final int INIT_GOLD_COIN_VALUE=100;
+    public static final int INIT_GOLD_COIN_VALUE_LARGES=1000;
+
+    public static final int REQUEST_CODE=301;//intent交易code
+    public static final String RESULT_CODE="result_code";
+    public static final int LOAD_RESULT_CODE=302;
+    public static final String TEXT_SIZE="text_size";
+    public static final String LARGE="大";
+    public static final String IN_LARGE="中";
+    public static final String SMALL="小";
+
+    public static final String XMLNAME="record.xml";
+
+    //敏感词的名称:服务器端返回的值!
+    public static final String SENSITIVECONTENT="sensitivecontent";
+    public static final String NO_LOGIN="未登录，跳转登录界面?";
+    public static final String NO_LOGIN_="权限过低";
+    public static final String STATE_PROMIT="您已被禁用!";
+
+    public static final String DEFAULTSTATE_="缺省状态";
+    public static final String ORDINARYSTOPSTATE_="您已被禁止使用";
+    public static final String ORDINARYSTATE_="请先申请成为志愿者";
+    public static final String ORDINARYAPPLYING_="您正在申请成为志愿者";
+    public static final String VOLUNTEER_="志愿者身份";
+    public static final String UNKNOW_VALUE_="用户不存在";
+
+    public static final int NEWWORK_TIME_OUT=7000;//网络超时间
+
+    //身份字符串
+    public static final String IDENTITY_VOLUNTEER="文明志愿者";
+    public static final String IDENTITY_ORDINARY="普通网友";
+
+    //导览页的间隔时间
+    public static final int SPLASH_DELAY_TIME_OUT=1000;
+
+    //文字描述:
+    public static final String EMPTY_STRING="数据为空!";
+
+    //微信中的appID
+    public static final String  WXAPP_ID= "wxb91199337fe56a69";
+    public static final String  CHANNELID= "channelId";
+
+    //QQ分享中的appID
+    public static final String QQ_APP_KEY="222222";
+
+    //推送相关的业务
+    public static final String ONE = "1";
+    public static final String ZARRO = "0";
+    public static final String TWO = "2";
+    public static final String THREE = "3";
+    public static final String FOUR = "4";
+    public static final String FIVE = "5";
+    public static final String SEX = "6";
+    public static final String VERSIONUP = "version_up_grade";
+    public static final String VERSIONUPGRADE = "versionUpGrade";//版本升级
+    public static final String SUPERVISE_ITEMID = "supersion";//提报审批
+    public static final String  VOLUNTEERAPPLY= "volunteer_apply";//志愿者申请
+    public static final String  IMEI= "imei";//imei
+    public static final String  PRESENTRULES= "presentRules";//imei
+    public static final String ITEMID ="itemId";
+    public static final String LASTLOGINTIME ="lastLoginTime";
+
+
+    //分享相关的键名:
+    public static final String SHARE_TITLE="SHARE_TITLE";
+    public static final String SHARE_TARGET_URL="SHARE_TARGET_URL";
+    public static final String SHARE_DESRIPTION="SHARE_DESRIPTION";
+    public static final String SHARE_IMG_PATH="SHARE_IMG_PATH";
+
+
+    //微信的状态
+    public static final String SHARE_SCENEFLAG="SHARE_SCENEFLAG";//是否是微信好友,还是朋友圈
+
+    //分享的类型:
+    public static final String SHARE_TYPE="SHARE_TYPE";//分享类型
+    public static final String SHARE_TYPE_WEBURL="SHARE_TYPE_WEBURL";//网页类型
+    public static final String SHARE_TYPE_IMAGE="SHARE_TYPE_IMAGE";//图片类型
+
+    //QQ分享中最大长度
+    public static final int SHARE_QQ_MAX_TITLE_LENGTH=100;
+    public static final int SHARE_QQ_MAX_CONTENT_LENGTH=300;
+
+    //微博中分享中的最大长度
+    public static final int SHARE_WIEBO_MAX_TITLE_LENGTH=100;
+    public static final int SHARE_WEIBO_MAX_CONTENT_LENGTH=300;
+
+    //微信中分享中的最大长度
+    public static final int SHARE_WECHAT_MAX_TITLE_LENGTH=100;
+    public static final int SHARE_WECHAT_MAX_CONTENT_LENGTH=300;
+
+    //文明评论发布话题的最大图片数
+    public static final int COMMENT_SUP_MAX_IMG=9;
+    public static final int LINE_IMG_COUNT=3;//每行显示的图片个数为3
+
+
+    //一些提示信息的常量字符串
+    public static final String NO_SUB_COMMENT="尚未发表任何评论!";
+    public static final String NO_MORE_COMMNET="没有更多评论!";
+    public static final String FORBIDDEN_USER="您的账户已被禁用!";
+    public static final String PLEASE_WRITE_COMMENT="请填写评论内容!";
+    public static final String PLEASE_WRITE_REPLY="请填写回复内容!";
+    public static final String ALREADY_DIAN_ZAN="您已经点过赞!";
+    public static final String YOU_NOT_VOLUNTEER="您不是志愿者身份!";
+    public static final String NOT_FABU_THEME="尚未发表话题";
+
+
+    //文明监督中地址的最大的汉字数:
+    public static final int MAX_CIVI_SUPERVISE_POSITION_LENGTH=36;
+
+
+    //提示的权限值的requestCode
+    public static final int CAMERA_REQUEST_CODE=100;
+    public static final int READ_EXTERNAL_STORAGE_REQUEST_CODE=101;
+    public static final int READ_PHONE_STATE_REQUEST_CODE=102;
+    public static final int LOCATION_REQUEST_CODE=103;
+    public static final int CALL_PHONE_REQUEST_CODE=104;
+
+    public static final String EXCHANGE_STATE_0 = "0";//未兑换状态
+    public static final String EXCHANGE_STATE_1 = "1";//已兑换状态
+    public static final String EXCHANGE_STATE_2 = "2";//本月已兑换状态（本月28号-下月27号期间为一个月）
+
+}

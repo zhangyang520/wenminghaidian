@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/personal_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@color/title_backround_color">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="@dimen/back_height"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/btn_back"
+                style="@style/TitleLeftBtn"
+                android:background="@null"
+                android:contentDescription="@string/empty_space"
+                android:src="@drawable/btn_back_selector" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/personal_info"
+            android:textColor="@color/title_text_color"
+            android:textSize="@dimen/title_text_size" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_mine"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/mine_bg"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/comment_user_pic"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_centerVertical="true" />
+
+        <RelativeLayout
+            android:id="@+id/rl_personal_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/comment_user_pic">
+
+            <TextView
+                android:id="@+id/comment_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="张林娜"
+                android:textColor="@color/comment_user_name"
+
+                android:textSize="@dimen/mine_user_name_size" />
+
+            <TextView
+                android:id="@+id/line2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/comment_user_name"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_toRightOf="@id/comment_user_name"
+                android:text="/"
+                android:textColor="@color/comment_user_type"
+                android:textSize="@dimen/mine_user_name_type_size" />
+
+            <TextView
+                android:id="@+id/comment_user_name_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/comment_user_name"
+                android:layout_toRightOf="@id/line2"
+                android:text="普通网友"
+                android:textColor="@color/comment_user_type"
+                android:textSize="@dimen/mine_user_name_type_size" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <!--<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/mine_bg"
+        android:gravity="center">
+
+        <com.zhjy.hdcivilization.view.CircleImageView
+            android:id="@+id/comment_user_pic"
+            android:layout_width="100dp"
+            android:clickable="true"
+            android:layout_height="100dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/comment_user_info_top" />
+
+        <TextView
+            android:id="@+id/comment_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/comment_user_pic"
+            android:text="张林娜"
+            android:textColor="@color/comment_user_name"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/comment_user_name"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="3dp"
+            android:layout_toRightOf="@id/comment_user_name"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/"
+                android:textColor="@color/comment_user_type" />
+
+            <TextView
+                android:id="@+id/comment_user_name_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="普通网友"
+                android:textColor="@color/comment_user_type" />
+        </LinearLayout>
+
+    </RelativeLayout>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:text="账号"
+            android:textColor="@color/supervise_mysub_right_txt"
+            android:textSize="@dimen/personal_title_size" />
+
+        <TextView
+            android:id="@+id/personal_info_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/text_name"
+            android:text="18936511001"
+            android:textColor="#5e5e5e"
+            android:textSize="@dimen/personal_title_size" />
+
+        <ImageView
+            android:id="@+id/right_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/personal_info_number"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:background="@color/supervise_mysubmit_line_color" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/text_name1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dp"
+            android:text="昵称"
+            android:textColor="@color/supervise_mysub_right_txt"
+            android:textSize="@dimen/personal_title_size" />
+
+        <EditText
+            android:id="@+id/personal_info_sign"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/text_name1"
+            android:background="@null"
+            android:hint="点击输入昵称"
+            android:textColor="#5e5e5e"
+            android:textColorHint="@color/supervise_mysub_right_txt"
+            android:textCursorDrawable="@drawable/color_cursor" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:background="@color/supervise_mysubmit_line_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/personal_info_bg">
+
+
+        <Button
+            android:id="@+id/save_personal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_shape_login_selector"
+            android:text="保存"
+            android:textColor="@color/white"
+            android:textSize="@dimen/personal_save_size" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

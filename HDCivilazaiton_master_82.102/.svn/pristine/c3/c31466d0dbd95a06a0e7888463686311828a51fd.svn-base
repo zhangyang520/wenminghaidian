@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_background_color"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@color/title_backround_color">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="@dimen/back_height"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/btn_back"
+                style="@style/TitleLeftBtn"
+                android:background="@null"
+                android:contentDescription="@string/empty_space"
+                android:src="@drawable/btn_back_selector" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/title_comment"
+            android:textColor="@color/title_text_color"
+            android:textSize="@dimen/title_text_size" />
+        
+        <RelativeLayout
+            android:id="@+id/rl_submit_gambit"
+            android:layout_width="@dimen/subtheme_width"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="right"
+            >
+            <ImageView
+                android:id="@+id/submit_gambit"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/edge_padding_right"
+                android:background="@drawable/btn_submit_gambit_selector" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/tab_hot_gambit"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/img_hot"
+                android:layout_width="75dp"
+                android:layout_height="17dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/hot_gambit_press" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/tab_mine_gambit"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/img_mine"
+                android:layout_width="77dp"
+                android:layout_height="17dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/mine_gambit" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_centerVertical="true"
+            android:background="#f6bd9f" />
+
+        <View
+            android:id="@+id/indicate_line"
+            android:layout_width="0dp"
+            android:layout_height="4dp"
+            android:background="#F48F5E" />
+
+    </RelativeLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_comment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

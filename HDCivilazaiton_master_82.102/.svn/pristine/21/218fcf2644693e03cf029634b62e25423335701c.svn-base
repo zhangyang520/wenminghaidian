@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/edge_padding_left"
+    android:paddingRight="@dimen/edge_padding_left"
+    android:paddingTop="19.5dp">
+
+    <!--图片信息上部信息-->
+    <RelativeLayout
+        android:id="@+id/rl_top"
+        android:layout_width="match_parent"
+        android:layout_height="76dp">
+
+        <!--图片-->
+        <ImageView
+            android:id="@+id/iv_supervise_mysub"
+            android:layout_width="108.57dp"
+            android:layout_height="76dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/real_horizontal_default" />
+
+        <RelativeLayout
+            android:id="@+id/rl_supervise_position"
+            android:layout_width="wrap_content"
+            android:layout_height="76dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/iv_supervise_mysub"
+            android:gravity="center_vertical"
+            >
+            <!--地理位置图标-->
+            <ImageView
+                android:id="@+id/iv_supervise_icon_position"
+                android:layout_width="16.2dp"
+                android:layout_height="20dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/supervise_position" />
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/iv_supervise_icon_position"
+                android:layout_centerHorizontal="true"
+                android:background="#d6d6d6"
+                android:layout_marginTop="4dp"
+                android:src="@drawable/supervise_mysub_dash_line" />
+        </RelativeLayout>
+
+        <!--最右边部分-->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="76dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/rl_supervise_position">
+
+            <!--标题-->
+            <TextView
+                android:layout_gravity="top"
+                android:id="@+id/supervise_tv_title"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="惠新西街南口"
+                android:textColor="#404040"
+                android:textSize="16sp" />
+
+            <!--内容如-->
+            <TextView
+                android:id="@+id/supervise_tv_content"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/supervise_tv_title"
+                android:ellipsize="end"
+                android:lines="2"
+                android:gravity="top"
+                android:text="此处有多人进行露天烧烤"
+                android:textColor="#878787"
+                android:textSize="15sp" />
+
+            <TextView
+               android:layout_gravity="bottom"
+                android:id="@+id/supervise_tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="0dp"
+                android:lineSpacingMultiplier="0"
+                android:text="05-25  09:30"
+                android:textColor="#d6d6d6"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <com.zhjy.hdcivilization.view.SuperviseProgressView
+        android:id="@+id/supervise_rl_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_top"
+        android:layout_marginLeft="@dimen/edge_padding_left"
+        android:layout_marginRight="@dimen/edge_padding_left"
+        android:layout_marginTop="20dp">
+
+        <RelativeLayout
+            android:id="@+id/rl_progress1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <!--第一个进度-->
+            <ImageView
+                android:id="@+id/supervise_iv_progress_1"
+                android:layout_width="@dimen/btn_round_width"
+                android:layout_height="@dimen/btn_round_width"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/supervise_icon_progress" />
+
+            <TextView
+                android:id="@+id/supervise_tv_content_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/supervise_iv_progress_1"
+                android:layout_centerHorizontal="true"
+                android:text="已受理"
+                android:textSize="@dimen/seeall_txtsize_supervise" />
+        </RelativeLayout>
+
+
+        <!-- android:layout_toRightOf="@id/rl_progress1"-->
+        <TextView
+            android:id="@+id/supervise_tv_progress_1"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/supervise_progress_line_height"
+            android:background="#59bcf8" />
+
+        <!-- &lt;!&ndash;文字 已上报&ndash;&gt;
+         <TextView
+             android:id="@+id/supervise_tv_name_1"
+             android:layout_below="@id/supervise_iv_progress_1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="已上报"
+             android:textColor="#59bcf8"
+             />-->
+        <!-- android:layout_toRightOf="@+id/supervise_tv_progress_1"-->
+        <RelativeLayout
+            android:id="@+id/rl_progress2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <!--第二个进度-->
+            <ImageView
+                android:id="@+id/supervise_iv_progress_2"
+                android:layout_width="@dimen/btn_round_width"
+                android:layout_height="@dimen/btn_round_width"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/supervise_icon_progress" />
+
+            <TextView
+                android:id="@+id/supervise_tv_content_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/supervise_iv_progress_2"
+                android:layout_centerHorizontal="true"
+                android:text="待复核"
+                android:textSize="@dimen/seeall_txtsize_supervise" />
+        </RelativeLayout>
+
+        <!-- android:layout_toRightOf="@+id/rl_progress2"-->
+        <TextView
+            android:id="@+id/supervise_tv_progress_2"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/supervise_progress_line_height"
+            android:background="#59bcf8" />
+
+        <!--android:layout_toRightOf="@+id/supervise_tv_progress_2"-->
+        <RelativeLayout
+            android:id="@+id/rl_progress3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <!--第三个进度-->
+            <ImageView
+                android:id="@+id/supervise_iv_progress_3"
+                android:layout_width="@dimen/btn_round_width"
+                android:layout_height="@dimen/btn_round_width"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/supervise_icon_progress" />
+
+            <TextView
+                android:id="@+id/supervise_tv_content_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/supervise_iv_progress_3"
+                android:layout_centerHorizontal="true"
+                android:text="待复核"
+                android:textSize="@dimen/seeall_txtsize_supervise" />
+        </RelativeLayout>
+
+    </com.zhjy.hdcivilization.view.SuperviseProgressView>
+
+    <View
+        android:layout_below="@+id/supervise_rl_2"
+        android:id="@+id/supervise_v_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="19.5dp"
+        android:background="@color/supervise_mysubmit_line_color"></View>
+</RelativeLayout>

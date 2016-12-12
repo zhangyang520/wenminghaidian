@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.example.zhangyang.imageapplication.MainActivity">
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <SurfaceView
+            android:id="@+id/surfaceView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.zhjy.hdcivilization.view.MaskView
+            android:id="@+id/maskView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></com.zhjy.hdcivilization.view.MaskView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!--反向摄像-->
+            <ImageView
+                android:id="@+id/change_camera"
+                android:layout_width="32dp"
+                android:layout_height="24.8dp"
+                android:background="@drawable/squarecamera__camera"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:onClick="changeCamera"
+                />
+        </RelativeLayout>
+    </FrameLayout>
+
+    <!--@dimen/bottom_height-->
+    <RelativeLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true">
+
+        <!--android:layout_width="@dimen/btn_camera_take"
+            android:layout_height="@dimen/btn_camera_take"-->
+        <Button
+            android:id="@+id/btn_take"
+            android:layout_width="@dimen/btn_camera_take"
+            android:layout_height="@dimen/btn_camera_take"
+            android:layout_centerInParent="true"
+            android:background="@drawable/camera_oval_selector"
+            android:clickable="true"
+            android:onClick="takePicture"
+            android:text="拍照"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="@dimen/camera_bottom_width"
+            android:layout_height="@dimen/camera_bottom_height"
+            android:layout_alignBottom="@id/btn_take"
+            android:layout_toLeftOf="@+id/btn_take"
+            android:background="@drawable/camera_rect_selector"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="cacelBtn"
+            android:text="取消"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_complete"
+            android:layout_width="@dimen/camera_bottom_width"
+            android:layout_height="@dimen/camera_bottom_height"
+            android:layout_alignBottom="@id/btn_take"
+            android:layout_toRightOf="@+id/btn_take"
+            android:background="@drawable/camera_rect_selector"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="completeBtn"
+            android:text="完成"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+
+        <GridView
+            android:layout_above="@id/ll"
+            android:id="@+id/gridView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/camera_backgroud"
+            android:gravity="center"
+            android:horizontalSpacing="@dimen/gridview_column_space"
+            android:numColumns="auto_fit"
+            android:paddingTop="20dp"
+            android:visibility="gone"
+            ></GridView>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_above="@id/ll"
+            android:layout_width="match_parent"
+            android:background="@color/camera_backgroud"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            android:layout_height="0dp">
+
+        </android.support.v7.widget.RecyclerView>
+</RelativeLayout>

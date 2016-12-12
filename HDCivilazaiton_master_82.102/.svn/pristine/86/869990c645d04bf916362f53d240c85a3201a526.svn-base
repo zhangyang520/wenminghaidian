@@ -1,0 +1,478 @@
+[
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\data_load_fail.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\data_load_fail.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_supervise_event_type.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\activity_supervise_event_type.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\event_type_string.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\event_type_string.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_item_hot_gambit.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\listview_item_hot_gambit.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\reply_comment_zan_and_share.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\reply_comment_zan_and_share.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_share.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\activity_share.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_popupwindow_pic.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\layout_popupwindow_pic.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_civi_comment_list.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\activity_civi_comment_list.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_volunteer_sign_up.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\activity_volunteer_sign_up.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login_success_ui.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\login_success_ui.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_supervise_mysubdata.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\listitem_supervise_mysubdata.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_sub_supervise.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\activity_my_sub_supervise.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_civi_state_detail.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\activity_civi_state_detail.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_supervise_mysub_list.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\activity_supervise_mysub_list.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_volunteer_sign_up_form.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\activity_volunteer_sign_up_form.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popup_ok_popup.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\popup_ok_popup.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_supervise_problem.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\listitem_supervise_problem.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_civisupervise.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\activity_civisupervise.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_item_civistate.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\listview_item_civistate.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_item_comment_user.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\listview_item_comment_user.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_one_civisupervise.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\content_one_civisupervise.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popup_send_comment.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\popup_send_comment.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_civicomment.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\activity_civicomment.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\loadpage_empty.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\loadpage_empty.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sub_info.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\activity_sub_info.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_item_civi_comment_list.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\listview_item_civi_comment_list.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popup_share.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\popup_share.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_civi_state.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\activity_civi_state.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\loadpager_loading.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\loadpager_loading.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_volunteer_five.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\content_volunteer_five.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mine_gold.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\activity_mine_gold.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\null_data.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\null_data.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_gambit_sub.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\activity_gambit_sub.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_volunteer_two.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\content_volunteer_two.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_volunteer_three.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\content_volunteer_three.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\foot_loading.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\foot_loading.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login_success.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\activity_login_success.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_notice.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\activity_notice.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_volunteer_four.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\content_volunteer_four.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\loadpager_error.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\loadpager_error.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_main.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\kprogresshud_hud.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\kprogresshud_hud.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_join.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\fragment_join.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mine.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\activity_mine.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_item_mine_gambit.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\listview_item_mine_gambit.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_item_civi_comment_list_detail.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\listview_item_civi_comment_list_detail.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_two_civisupervise.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\content_two_civisupervise.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_mine_gambit.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\fragment_mine_gambit.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_supervise_mine_list.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\fragment_supervise_mine_list.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_notice_detail.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\activity_notice_detail.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_apply_check.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\activity_apply_check.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_civi_comment_list_detail.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\activity_civi_comment_list_detail.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\supervise_mysubmit_list.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\supervise_mysubmit_list.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_about.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\activity_about.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_volunteer_one.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\content_volunteer_one.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_cropper.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\activity_cropper.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_sub.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\fragment_sub.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_takecamera.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\activity_takecamera.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_take_image.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\item_take_image.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_comment_detail.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\activity_comment_detail.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_personal_info.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\activity_personal_info.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_hot_gambit.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\fragment_hot_gambit.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\supervise_popup_position.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\supervise_popup_position.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popup_warning.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\popup_warning.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_pager_list_carousel.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\main_pager_list_carousel.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_comment_user_info.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\activity_comment_user_info.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_type_face_size_setting.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\layout\\activity_type_face_size_setting.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_navigation_menu_item.xml"
+    }
+]

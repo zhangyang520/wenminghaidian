@@ -1,0 +1,115 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <!-- 设置标题文字样式 -->
+    <style name="TitleCenterText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- 设置标题头部左侧的按钮样式 <item name="android:paddingRight">13dp</item>-->
+    <style name="TitleLeftBtn">
+        <item name="android:layout_width">13.9dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_marginLeft">@dimen/edge_padding_right</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <!-- 选择照片底部弹出层 -->
+    <style name="PopupAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
+
+    <!--志愿者申请-->
+    <style name="EditSignUp">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@null</item>
+        <item name="android:cursorVisible">true</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/comment_hot_title</item>
+        <item name="android:textCursorDrawable">@drawable/color_cursor</item>
+    </style>
+
+
+    <!--设置activity透明-->
+    <style name="Theme.AppCompat.Translucent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="use_guide_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#58bcf5</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+
+    <style name="use_guide_content">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#515151</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+
+
+    <style name="use_guide_textview_content">
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#576C78</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+
+    <style name="use_guide_content_">
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#515151</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+
+      <style name="theme_dialog" parent="@android:style/Theme.Dialog">
+            <item name="android:windowFrame">@android:color/transparent</item>
+            <item name="android:windowIsFloating">true</item>
+            <item name="android:windowIsTranslucent">true</item>
+            <item name="android:windowNoTitle">true</item>
+            <item name="android:background">@android:color/transparent</item>
+            <item name="android:windowBackground">@android:color/transparent</item>
+            <item name="android:backgroundDimEnabled">false</item>
+    </style>
+</resources>

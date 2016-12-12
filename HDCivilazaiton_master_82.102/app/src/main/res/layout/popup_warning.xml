@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/btn_send_comment_rect"
+    android:orientation="vertical"
+    android:padding="@dimen/edge_padding_left">
+
+    <!--
+      图片的展示
+    -->
+    <TextView
+        android:id="@+id/warning_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="@string/is_login_out"
+        android:textColor="@color/gry_black"
+        android:textSize="@dimen/popup_warning" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/warning_txt"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/rl_ok"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btn_ok"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/btn_send_comment_selector"
+                android:text="确定"
+                android:textColor="@color/gry_black"
+                android:textSize="@dimen/btn_send_comment"></Button>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rl_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/btn_send_comment_selector"
+                android:text="取消"
+                android:textColor="@color/gry_black"
+                android:textSize="@dimen/btn_send_comment"></Button>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

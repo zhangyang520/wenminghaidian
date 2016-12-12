@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/use_guide_content_"
+        android:text="\u3000\u3000不文明现象共分10类，包括：" />
+
+    <TextView
+        style="@style/use_guide_textview_content"
+        android:text="环境污染"
+        android:textStyle="bold" />
+
+    <TextView
+        style="@style/use_guide_content_"
+        android:text="\u3000\u3000社区、街面、农村成堆成片垃圾、杂物或小广告；公共设施（公用电话、护栏、邮箱、报栏、座椅、窨井、路灯、路标路牌、公交站牌等）明显脏污，乱贴乱涂。" />
+
+    <TextView
+        style="@style/use_guide_textview_content"
+        android:text="道路破损"
+        android:textStyle="bold" />
+
+    <TextView
+        style="@style/use_guide_content_"
+        android:text="\u3000\u3000道路坑洼不平，影响通行，盲道中断、破损。" />
+
+    <TextView
+        style="@style/use_guide_textview_content"
+        android:text="设施破损"
+        android:textStyle="bold" />
+
+    <TextView
+        style="@style/use_guide_content_"
+        android:text="\u3000\u3000街面、社区内公共设施（公用电话、护栏、邮箱、报栏、宣传栏、座椅、窨井、路灯、路标路牌、公交站牌、配电箱、交通信号灯等）损坏。" />
+
+
+    <TextView
+        style="@style/use_guide_textview_content"
+        android:text="占道停车"
+        android:textStyle="bold" />
+
+    <TextView
+        style="@style/use_guide_content_"
+        android:text="\u3000\u3000机动车、电动车、自行车乱停放在街面“四道两站一口（人行道、盲道、消防通道、人行横道、公交车站、地铁站、交通路口）”。" />
+
+    <TextView
+        style="@style/use_guide_textview_content"
+        android:text="占道经营"
+        android:textStyle="bold" />
+
+    <TextView
+        style="@style/use_guide_content_"
+        android:text="\u3000\u3000游商摊贩摆摊设点占用道路。" />
+
+    <TextView
+        style="@style/use_guide_textview_content"
+        android:text="门前三包"
+        android:textStyle="bold" />
+
+    <TextView
+        style="@style/use_guide_content_"
+        android:text="\u3000\u3000沿街商铺或单位门前责任制不落实，乱扔垃圾杂物、乱泼脏水、违章搭建、店外经营、沿街晾晒、车辆乱停、乱设广告牌。" />
+
+    <TextView
+        style="@style/use_guide_textview_content"
+        android:text="占用盲道"
+        android:textStyle="bold" />
+
+    <TextView
+        style="@style/use_guide_content_"
+        android:text="\u3000\u3000报刊亭、堆积物、违章建筑、施工围挡、建筑材料等侵占盲道。" />
+
+    <TextView
+        style="@style/use_guide_textview_content"
+        android:text="露天烧烤"
+        android:textStyle="bold" />
+
+    <TextView
+        style="@style/use_guide_content_"
+        android:text="\u3000\u3000餐饮场所、游商摊贩在露天场所烧烤排污。" />
+
+    <TextView
+        style="@style/use_guide_textview_content"
+        android:text="水体污染"
+        android:textStyle="bold" />
+
+    <TextView
+        style="@style/use_guide_content_"
+        android:text="\u3000\u3000河道沟渠内乱排污、乱倒垃圾。" />
+
+    <TextView
+        style="@style/use_guide_textview_content"
+        android:text="公益广告"
+        android:textStyle="bold" />
+
+    <TextView
+        style="@style/use_guide_content_"
+        android:text="\u3000\u3000公共场所、社区、商场、公园、建筑工地围挡等刊播“图说核心价值观”、“讲文明树新风”公益广告、海淀区宣传展示内容脏污、破损，乱贴小广告、乱涂乱画。" />
+
+
+</LinearLayout>

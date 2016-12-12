@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhjy.hdcivilization.view.SimpleSwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/civi_state_detail_"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_height"
+            android:background="@color/title_backround_color">
+
+            <RelativeLayout
+                android:id="@+id/rl_back"
+                android:layout_width="@dimen/back_height"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/btn_back"
+                    style="@style/TitleLeftBtn"
+                    android:background="@null"
+                    android:contentDescription="@string/empty_space"
+                    android:src="@drawable/btn_back_selector" />
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/mine_notice_detail"
+                android:textColor="@color/title_text_color"
+                android:textSize="@dimen/title_text_size" />
+
+        </RelativeLayout>
+        <com.zhjy.hdcivilization.view.NoScrollView
+            android:id="@+id/comment_scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/edge_padding_left"
+                android:layout_marginRight="@dimen/edge_padding_left"
+                >
+                <include layout="@layout/state_detail_title"></include>
+                <WebView
+                    android:id="@+id/notice_webview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/civi_state_detail_"
+                    ></WebView>
+                <include layout="@layout/comment_detail_list" ></include>
+            </LinearLayout>
+        </com.zhjy.hdcivilization.view.NoScrollView>
+
+        <include layout="@layout/reply_comment_zan_and_share"></include>
+
+    </LinearLayout>
+
+
+</com.zhjy.hdcivilization.view.SimpleSwipeRefreshLayout>

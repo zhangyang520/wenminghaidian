@@ -1,0 +1,386 @@
+[
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_share_qq_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_share_qq_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_back_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_back_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_civilization_supervise_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_civilization_supervise_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_civilization_comment_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_civilization_comment_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_camera_oval.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_camera_oval.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_share_weixin_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_share_weixin_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\downarrow_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\downarrow_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cancel_img_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\cancel_img_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\supervise_mine_list_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\supervise_mine_list_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\supervise_mysub_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\supervise_mysub_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_send_comment_rect_press.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_send_comment_rect_press.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\supervise_postion_radio_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\supervise_postion_radio_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\event_type_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\event_type_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\txt_civilization_comment_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\txt_civilization_comment_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_shape_about_press_bg.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_shape_about_press_bg.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_setting_send_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_setting_send_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\backbtn_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\backbtn_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_submit_gambit_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_submit_gambit_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_bottm_comment_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_bottm_comment_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\txt_login_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\txt_login_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_shape_gold_press_bg.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_shape_gold_press_bg.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\volunteer_sign_name_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\volunteer_sign_name_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_shutter_background.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_shutter_background.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_send_iphone_code_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_send_iphone_code_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_shape_mine_press_bg.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_shape_mine_press_bg.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\color_cursor.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\color_cursor.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\volunteer_arrow_up_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\volunteer_arrow_up_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_login_success_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_login_success_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\camera_oval_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\camera_oval_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\supervise_btn_next_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\supervise_btn_next_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_hot_gambit_zan_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_hot_gambit_zan_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\supervise_position_rect.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\supervise_position_rect.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_camera_oval_press.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_camera_oval_press.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_send_comment_rect.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_send_comment_rect.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_login_success_apply_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_login_success_apply_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_about_sub_info_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_about_sub_info_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_about_check_new_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_about_check_new_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_shape_login_press_bg.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_shape_login_press_bg.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_civilization_autostate_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_civilization_autostate_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cacel_rect_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\cacel_rect_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_shape_gold_press_.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_shape_gold_press_.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_civilization_mine_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_civilization_mine_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_share_nessage_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_share_nessage_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_share_friend_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_share_friend_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_bottm_zan_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_bottm_zan_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_shape_get_code_bg.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_shape_get_code_bg.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\uparrow_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\uparrow_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_shape_ll_bg.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_shape_ll_bg.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_camera_rect_press.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_camera_rect_press.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_shape_comment_number_bg.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_shape_comment_number_bg.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_cancel_rect.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_cancel_rect.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\volunteer_arrow_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\volunteer_arrow_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\volunteer_train_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\volunteer_train_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_camera_rect.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_camera_rect.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\camera_rect_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\camera_rect_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_shape_login_bg.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_shape_login_bg.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_shape_about_bg.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_shape_about_bg.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\txt_about_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\txt_about_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_send_comment_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_send_comment_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_shape_about_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_shape_about_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_shape_mine_bg_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_shape_mine_bg_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\share_popup_rect.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\share_popup_rect.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_gambit_sub_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_gambit_sub_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_shape_login_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_shape_login_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_shape_mine_bg.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_shape_mine_bg.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_bottom_shared_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_bottom_shared_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\supervise_btn_sub_selector.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\supervise_btn_sub_selector.xml"
+    },
+    {
+        "merged": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_cancel_rect_press.xml",
+        "source": "E:\\zhangyang\\HDCivilazaiton_master_82.102\\app\\src\\main\\res\\drawable\\btn_cancel_rect_press.xml"
+    }
+]

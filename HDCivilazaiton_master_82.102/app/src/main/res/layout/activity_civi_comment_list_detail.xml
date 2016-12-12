@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/rl_layout"
+    >
+
+    <RelativeLayout
+        android:id="@+id/rll"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@color/title_backround_color">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="@dimen/back_height"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/btn_back"
+                style="@style/TitleLeftBtn"
+                android:background="@null"
+                android:contentDescription="@string/empty_space"
+                android:src="@drawable/btn_back_selector" />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/civi_comment_list_detail"
+            android:textColor="@color/title_text_color"
+            android:textSize="@dimen/title_text_size" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rll"
+        android:layout_marginBottom="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="13dp"
+                android:paddingRight="13dp"
+                android:paddingTop="20dp">
+
+
+                <LinearLayout
+                    android:id="@+id/user_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <com.zhjy.hdcivilization.view.CircleImageView
+                        android:id="@+id/details_user_pic"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/detail_user_state"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="最美的微笑"
+                        android:textColor="#82a2b9"
+                        android:textSize="@dimen/comment_item_title" />
+
+                    <TextView
+                        android:id="@+id/detail_user_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#7a7a7a"
+                        android:textSize="@dimen/comment_item_title" />
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/detail_comment_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/user_info"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/comment_content"
+                    android:textColor="#545454"
+                    android:textSize="@dimen/comment_item_content" />
+
+
+                <TextView
+                    android:id="@+id/detail_time__"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="10dp"
+                    android:text="06-05 12:24"
+                    android:textColor="@color/comment_detail_time" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/supervise_mysubmit_line_color" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/supervise_item_press"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/total_comment"
+                    android:textColor="@color/total_comment_"
+                    android:textSize="@dimen/civi_comment_title_size" />
+
+
+                <com.zhjy.hdcivilization.view.LoadMoreRecyclerView
+                    android:id="@+id/comment_recyclerview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                </com.zhjy.hdcivilization.view.LoadMoreRecyclerView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <include layout="@layout/reply_comment_zan_and_share"></include>
+
+    </RelativeLayout>
+
+</RelativeLayout>

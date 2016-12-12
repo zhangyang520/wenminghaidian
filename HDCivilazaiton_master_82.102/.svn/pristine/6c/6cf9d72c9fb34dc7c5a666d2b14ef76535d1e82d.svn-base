@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <!--图片裁剪的imageView-->
+    <com.zhjy.hdcivilization.view.CropImageView
+        android:id="@+id/iv_crop"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+
+    <!--
+        底部的按钮
+    -->
+        <!--@dimen/bottom_height-->
+        <RelativeLayout
+            android:id="@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            android:gravity="center_vertical"
+            >
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="@dimen/camera_bottom_width"
+                android:layout_height="@dimen/camera_bottom_height"
+                android:background="@drawable/camera_rect_selector"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="取消"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                />
+
+            <Button
+                android:id="@+id/btn_complete"
+                android:layout_width="@dimen/camera_bottom_width"
+                android:layout_height="@dimen/camera_bottom_height"
+                android:background="@drawable/camera_rect_selector"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="剪切"
+                android:textSize="20sp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/black"
+                />
+        </RelativeLayout>
+</LinearLayout>
