@@ -1,4 +1,4 @@
-package com.zhjy.hdcivilization.entity;
+﻿package com.zhjy.hdcivilization.entity;
 
 import java.io.Serializable;
 import java.util.HashMap;
@@ -34,8 +34,8 @@ public class UrlParamsEntity implements Serializable{
 	public static String LI_RUI_FANG_IP_url1="http://192.168.83.90:9001/";
 //	public static String HD_CIVILIZATION_IP="http://218.249.38.206:9999/";
 	public static String KAIGE="http://192.168.83.102:8081/";
-	public static String ZHJY="http://218.249.38.206:9999/";
-	public static String A_LI_YUN="http://101.200.104.230:80/";//阿里云服务器Ip
+	public static String A_LI_YUN="http://218.249.38.206:9999/";
+	
 
 	public static String HD_CIVILIZATION_IP=A_LI_YUN;
    //当前ip地址
